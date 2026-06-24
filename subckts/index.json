@@ -1,66 +1,70 @@
-"subckts": [
-  {
-    "name": "LPFILTER",
-    "category": "Filter",
-    "description": "RC low-pass filter with buffered output",
-    "ports": ["IN", "OUT", "GND"],
-    "params": ["RVAL=1k", "CVAL=10n"],
-    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/filter/LPFILTER.sub"
-  },
-  {
-    "name": "HPFILTER",
-    "category": "Filter",
-    "description": "RC high-pass filter with buffered output",
-    "ports": ["IN", "OUT", "GND"],
-    "params": ["RVAL=1k", "CVAL=10n"],
-    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/filter/HPFILTER.sub"
-  },
-  {
-    "name": "VDIVIDER",
-    "category": "Passive",
-    "description": "Resistive voltage divider",
-    "ports": ["IN", "OUT", "GND"],
-    "params": ["R1=10k", "R2=10k"],
-    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/passive/VDIVIDER.sub"
-  },
-  {
-    "name": "DEBOUNCE",
-    "category": "Passive",
-    "description": "RC switch debounce circuit",
-    "ports": ["IN", "OUT", "VCC", "GND"],
-    "params": ["RVAL=10k", "CVAL=100n"],
-    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/passive/DEBOUNCE.sub"
-  },
-  {
-    "name": "NMOSSW",
-    "category": "Switch",
-    "description": "NMOS low-side switch with gate resistor",
-    "ports": ["GATE", "DRAIN", "GND"],
-    "params": ["RG=100"],
-    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/switch/NMOSSW.sub"
-  },
-  {
-    "name": "NPNSW",
-    "category": "Switch",
-    "description": "NPN BJT low-side switch",
-    "ports": ["BASE", "COLLECTOR", "GND"],
-    "params": ["RB=10k"],
-    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/switch/NPNSW.sub"
-  },
-  {
-    "name": "HALFWAVE",
-    "category": "Rectifier",
-    "description": "Half-wave rectifier with smoothing capacitor",
-    "ports": ["AC", "DC", "GND"],
-    "params": ["CVAL=100u"],
-    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/rectifier/HALFWAVE.sub"
-  },
-  {
-    "name": "FULLWAVE",
-    "category": "Rectifier",
-    "description": "Full-wave bridge rectifier with smoothing capacitor",
-    "ports": ["AC1", "AC2", "DC", "GND"],
-    "params": ["CVAL=100u"],
-    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/rectifier/FULLWAVE.sub"
-  }
-]
+{
+  "version": 1,
+  "updated": "2026-06-24",
+  "subckts": [
+    {
+      "name": "LPFILTER",
+      "category": "Filter",
+      "description": "RC low-pass filter with buffered output",
+      "ports": ["IN", "OUT", "GND"],
+      "params": ["RVAL=1k", "CVAL=10n"],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/filter/LPFILTER.sub"
+    },
+    {
+      "name": "HPFILTER",
+      "category": "Filter",
+      "description": "RC high-pass filter with buffered output",
+      "ports": ["IN", "OUT", "GND"],
+      "params": ["RVAL=1k", "CVAL=10n"],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/filter/HPFILTER.sub"
+    },
+    {
+      "name": "VDIVIDER",
+      "category": "Passive",
+      "description": "Resistive voltage divider",
+      "ports": ["IN", "OUT", "GND"],
+      "params": ["R1=10k", "R2=10k"],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/passive/VDIVIDER.sub"
+    },
+    {
+      "name": "DEBOUNCE",
+      "category": "Passive",
+      "description": "RC switch debounce circuit",
+      "ports": ["IN", "OUT", "VCC", "GND"],
+      "params": ["RVAL=10k", "CVAL=100n"],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/passive/DEBOUNCE.sub"
+    },
+    {
+      "name": "NMOSSW",
+      "category": "Switch",
+      "description": "NMOS low-side switch with gate resistor",
+      "ports": ["GATE", "DRAIN", "GND"],
+      "params": ["RG=100"],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/switch/NMOSSW.sub"
+    },
+    {
+      "name": "NPNSW",
+      "category": "Switch",
+      "description": "NPN BJT low-side switch",
+      "ports": ["BASE", "COLLECTOR", "GND"],
+      "params": ["RB=10k"],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/switch/NPNSW.sub"
+    },
+    {
+      "name": "HALFWAVE",
+      "category": "Rectifier",
+      "description": "Half-wave rectifier with smoothing capacitor",
+      "ports": ["AC", "DC", "GND"],
+      "params": ["CVAL=100u"],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/rectifier/HALFWAVE.sub"
+    },
+    {
+      "name": "FULLWAVE",
+      "category": "Rectifier",
+      "description": "Full-wave bridge rectifier with smoothing capacitor",
+      "ports": ["AC1", "AC2", "DC", "GND"],
+      "params": ["CVAL=100u"],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/rectifier/FULLWAVE.sub"
+    }
+  ]
+}
