@@ -1,0 +1,426 @@
+{
+  "version": 1,
+  "updated": "2025-01-15",
+  "sections": [
+    {
+      "id": "getting_started",
+      "title": "Getting Started",
+      "topics": [
+        {
+          "id": "what_is_cw",
+          "title": "What is CircuitWorkbench?",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/what_is_cw.md",
+          "action": null
+        },
+        {
+          "id": "creating_first_circuit",
+          "title": "Creating Your First Circuit",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/creating_first_circuit.md",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "file_management",
+      "title": "File Management",
+      "topics": [
+        {
+          "id": "creating_circuit",
+          "title": "Creating a New Circuit",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/creating_circuit.md",
+          "action": null
+        },
+        {
+          "id": "storage_modes",
+          "title": "In-App Storage vs Document Storage",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/storage_modes.md",
+          "action": null
+        },
+        {
+          "id": "saving",
+          "title": "Saving a Circuit",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/saving.md",
+          "action": null
+        },
+        {
+          "id": "save_as",
+          "title": "Save As",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/save_as.md",
+          "action": null
+        },
+        {
+          "id": "renaming",
+          "title": "Renaming a Circuit",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/renaming.md",
+          "action": null
+        },
+        {
+          "id": "starring",
+          "title": "Starring a Circuit",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/starring.md",
+          "action": null
+        },
+        {
+          "id": "opening_files",
+          "title": "Opening Files",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/opening_files.md",
+          "action": null
+        },
+        {
+          "id": "deleting_files",
+          "title": "Deleting a Circuit",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/deleting_files.md",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "schematic_editor",
+      "title": "Schematic Editor",
+      "topics": [
+        {
+          "id": "editor_overview",
+          "title": "Editor Overview",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/editor_overview.md",
+          "action": null
+        },
+        {
+          "id": "canvas_navigation",
+          "title": "Navigating the Canvas",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/canvas_navigation.md",
+          "action": null
+        },
+        {
+          "id": "palette",
+          "title": "Using the Palette",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/palette.md",
+          "action": null
+        },
+        {
+          "id": "repeat_mode",
+          "title": "Repeat Placement Mode",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/repeat_mode.md",
+          "action": null
+        },
+        {
+          "id": "placement_banner",
+          "title": "Placement Banner",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/placement_banner.md",
+          "action": null
+        },
+        {
+          "id": "components",
+          "title": "Component Types",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/components.md",
+          "action": null
+        },
+        {
+          "id": "ground_nodes",
+          "title": "Ground Nodes",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/ground_nodes.md",
+          "action": null
+        },
+        {
+          "id": "wiring",
+          "title": "Drawing Wires",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/wiring.md",
+          "action": null
+        },
+        {
+          "id": "net_names",
+          "title": "Net Names",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/net_names.md",
+          "action": null
+        },
+        {
+          "id": "selection",
+          "title": "Selecting Components",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/selection.md",
+          "action": null
+        },
+        {
+          "id": "move_rotate_mirror",
+          "title": "Moving, Rotating and Mirroring",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/move_rotate_mirror.md",
+          "action": null
+        },
+        {
+          "id": "delete",
+          "title": "Deleting Components and Wires",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/delete.md",
+          "action": null
+        },
+        {
+          "id": "undo_redo",
+          "title": "Undo and Redo",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/undo_redo.md",
+          "action": null
+        },
+        {
+          "id": "symbol_styles",
+          "title": "Symbol Styles (IEC vs ANSI)",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/symbol_styles.md",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "properties",
+      "title": "Component Properties",
+      "topics": [
+        {
+          "id": "properties_overview",
+          "title": "Properties Panel Overview",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/properties_overview.md",
+          "action": null
+        },
+        {
+          "id": "primitive_values",
+          "title": "Primitive Values",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/primitive_values.md",
+          "action": null
+        },
+        {
+          "id": "reference_values",
+          "title": "Reference Values (Model Assignment)",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/reference_values.md",
+          "action": null
+        },
+        {
+          "id": "spice_notation",
+          "title": "SPICE Value Notation",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/spice_notation.md",
+          "action": null
+        },
+        {
+          "id": "annotations",
+          "title": "Annotations",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/annotations.md",
+          "action": null
+        },
+        {
+          "id": "initial_conditions",
+          "title": "Initial Conditions",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/initial_conditions.md",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "models",
+      "title": "SPICE Models",
+      "topics": [
+        {
+          "id": "what_is_model",
+          "title": "What Is a SPICE Model?",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/what_is_model.md",
+          "action": null
+        },
+        {
+          "id": "assigning_model",
+          "title": "Assigning a Model to a Component",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/assigning_model.md",
+          "action": null
+        },
+        {
+          "id": "model_library",
+          "title": "The Model Library",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/model_library.md",
+          "action": null
+        },
+        {
+          "id": "importing_models",
+          "title": "Importing Models from the Cloud",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/importing_models.md",
+          "action": null
+        },
+        {
+          "id": "model_card_format",
+          "title": "The .model Card Format",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/model_card_format.md",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "subcircuits",
+      "title": "Subcircuits",
+      "topics": [
+        {
+          "id": "what_is_subcircuit",
+          "title": "What Is a Subcircuit?",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/what_is_subcircuit.md",
+          "action": null
+        },
+        {
+          "id": "placing_subcircuit",
+          "title": "Placing a Subcircuit",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/placing_subcircuit.md",
+          "action": null
+        },
+        {
+          "id": "subcircuit_params",
+          "title": "Subcircuit Parameters",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/subcircuit_params.md",
+          "action": null
+        },
+        {
+          "id": "subcircuit_library",
+          "title": "The Subcircuit Library",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/subcircuit_library.md",
+          "action": null
+        },
+        {
+          "id": "importing_subcircuits",
+          "title": "Importing Subcircuits from the Cloud",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/importing_subcircuits.md",
+          "action": null
+        },
+        {
+          "id": "creating_subcircuit",
+          "title": "Creating Your Own Subcircuit",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/creating_subcircuit.md",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "title": "Simulation",
+      "topics": [
+        {
+          "id": "simulation_overview",
+          "title": "Simulation Overview",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/simulation_overview.md",
+          "action": null
+        },
+        {
+          "id": "running_simulation",
+          "title": "Running a Simulation",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/running_simulation.md",
+          "action": null
+        },
+        {
+          "id": "run_last_simulation",
+          "title": "Run Last Simulation",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/run_last_simulation.md",
+          "action": null
+        },
+        {
+          "id": "output_vectors",
+          "title": "Output Vectors",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/output_vectors.md",
+          "action": null
+        },
+        {
+          "id": "op_analysis",
+          "title": "Operating Point Analysis (OP)",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/op_analysis.md",
+          "action": null
+        },
+        {
+          "id": "ac_analysis",
+          "title": "AC Analysis",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/ac_analysis.md",
+          "action": null
+        },
+        {
+          "id": "dc_sweep",
+          "title": "DC Sweep Analysis",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/dc_sweep.md",
+          "action": null
+        },
+        {
+          "id": "transient_analysis",
+          "title": "Transient Analysis",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/transient_analysis.md",
+          "action": null
+        },
+        {
+          "id": "waveform_types",
+          "title": "Transient Waveform Types",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/waveform_types.md",
+          "action": null
+        },
+        {
+          "id": "viewing_results",
+          "title": "Viewing Simulation Results",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/viewing_results.md",
+          "action": null
+        },
+        {
+          "id": "netlist_panel",
+          "title": "The Netlist Panel",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/netlist_panel.md",
+          "action": null
+        },
+        {
+          "id": "problems_panel",
+          "title": "The Problems Panel",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/problems_panel.md",
+          "action": null
+        },
+        {
+          "id": "simulation_errors",
+          "title": "Common Simulation Errors",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/simulation_errors.md",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "settings",
+      "title": "Settings",
+      "topics": [
+        {
+          "id": "theme",
+          "title": "Theme",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/theme.md",
+          "action": null
+        },
+        {
+          "id": "grid_settings",
+          "title": "Grid Settings",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/grid_settings.md",
+          "action": null
+        },
+        {
+          "id": "default_zoom",
+          "title": "Default Zoom",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/default_zoom.md",
+          "action": null
+        },
+        {
+          "id": "analysis_settings",
+          "title": "Analysis Settings",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/analysis_settings.md",
+          "action": null
+        },
+        {
+          "id": "storage_settings",
+          "title": "Storage Settings",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/storage_settings.md",
+          "action": null
+        }
+      ]
+    },
+    {
+      "id": "contact",
+      "title": "Contact & Feedback",
+      "topics": [
+        {
+          "id": "send_feedback",
+          "title": "Send Feedback",
+          "contentUrl": null,
+          "action": "send_feedback"
+        },
+        {
+          "id": "view_changelog",
+          "title": "View Changelog",
+          "contentUrl": null,
+          "action": "view_changelog"
+        }
+      ]
+    }
+  ]
+}
