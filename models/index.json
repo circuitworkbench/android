@@ -8,7 +8,7 @@
       "category": "BJT",
       "description": "General purpose NPN switching transistor",
       "manufacturer": "ON Semiconductor",
-      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/bjt/2N2222.mod"
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/models/bjt/2N2222.mod"
     },
     {
       "name": "2N3906",
@@ -16,7 +16,7 @@
       "category": "BJT",
       "description": "General purpose PNP switching transistor",
       "manufacturer": "ON Semiconductor",
-      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/bjt/2N3906.mod"
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/models/bjt/2N3906.mod"
     },
     {
       "name": "1N4148",
@@ -24,7 +24,7 @@
       "category": "Diode",
       "description": "High-speed switching diode",
       "manufacturer": "Vishay",
-      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/diode/1N4148.mod"
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/models/diode/1N4148.mod"
     },
     {
       "name": "1N4007",
@@ -32,7 +32,7 @@
       "category": "Diode",
       "description": "General purpose rectifier diode 1A 1000V",
       "manufacturer": "Vishay",
-      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/diode/1N4007.mod"
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/models/diode/1N4007.mod"
     },
     {
       "name": "2N7000",
@@ -40,7 +40,7 @@
       "category": "MOSFET",
       "description": "Small signal N-channel MOSFET",
       "manufacturer": "ON Semiconductor",
-      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/mosfet/2N7000.mod"
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/models/mosfet/2N7000.mod"
     },
     {
       "name": "BS250",
@@ -48,7 +48,7 @@
       "category": "MOSFET",
       "description": "P-channel enhancement MOSFET",
       "manufacturer": "Vishay",
-      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/mosfet/BS250.mod"
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/models/mosfet/BS250.mod"
     },
     {
       "name": "2N5457",
@@ -56,7 +56,7 @@
       "category": "JFET",
       "description": "N-channel general purpose JFET",
       "manufacturer": "ON Semiconductor",
-      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/jfet/2N5457.mod"
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/models/jfet/2N5457.mod"
     },
     {
       "name": "2N5460",
@@ -64,7 +64,7 @@
       "category": "JFET",
       "description": "P-channel general purpose JFET",
       "manufacturer": "ON Semiconductor",
-      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/jfet/2N5460.mod"
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/models/jfet/2N5460.mod"
     }
   ]
 }
