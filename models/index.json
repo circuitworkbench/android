@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "updated": "2025-01-15",
+  "models": [
+    {
+      "name": "2N2222",
+      "deviceType": "NPN",
+      "category": "BJT",
+      "description": "General purpose NPN switching transistor",
+      "manufacturer": "ON Semiconductor",
+      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/bjt/2N2222.mod"
+    },
+    {
+      "name": "2N3906",
+      "deviceType": "PNP",
+      "category": "BJT",
+      "description": "General purpose PNP switching transistor",
+      "manufacturer": "ON Semiconductor",
+      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/bjt/2N3906.mod"
+    },
+    {
+      "name": "1N4148",
+      "deviceType": "D",
+      "category": "Diode",
+      "description": "High-speed switching diode",
+      "manufacturer": "Vishay",
+      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/diode/1N4148.mod"
+    },
+    {
+      "name": "1N4007",
+      "deviceType": "D",
+      "category": "Diode",
+      "description": "General purpose rectifier diode 1A 1000V",
+      "manufacturer": "Vishay",
+      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/diode/1N4007.mod"
+    },
+    {
+      "name": "2N7000",
+      "deviceType": "NMOS",
+      "category": "MOSFET",
+      "description": "Small signal N-channel MOSFET",
+      "manufacturer": "ON Semiconductor",
+      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/mosfet/2N7000.mod"
+    },
+    {
+      "name": "BS250",
+      "deviceType": "PMOS",
+      "category": "MOSFET",
+      "description": "P-channel enhancement MOSFET",
+      "manufacturer": "Vishay",
+      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/mosfet/BS250.mod"
+    },
+    {
+      "name": "2N5457",
+      "deviceType": "NJF",
+      "category": "JFET",
+      "description": "N-channel general purpose JFET",
+      "manufacturer": "ON Semiconductor",
+      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/jfet/2N5457.mod"
+    },
+    {
+      "name": "2N5460",
+      "deviceType": "PJF",
+      "category": "JFET",
+      "description": "P-channel general purpose JFET",
+      "manufacturer": "ON Semiconductor",
+      "downloadUrl": "https://raw.githubusercontent.com/youruser/yourrepo/main/models/jfet/2N5460.mod"
+    }
+  ]
+}
