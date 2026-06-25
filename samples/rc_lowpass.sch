@@ -55,7 +55,7 @@
 &lt;/circuit&gt;</circuit_data>
   <diagram_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
 &lt;diagram version="1"&gt;
-  &lt;node id="91c014cb-0a96-452b-973a-8c93a19a54a4" semantic="9d5471a3-4a66-4879-9216-b3ee3131075f" x="200.0" y="720.0" width="200.0" height="200.0" annotationDx="200.0" annotationDy="0.0" annotationTextAlign="LEFT"&gt;
+  &lt;node id="91c014cb-0a96-452b-973a-8c93a19a54a4" semantic="9d5471a3-4a66-4879-9216-b3ee3131075f" x="200.0" y="720.0" width="200.0" height="200.0" annotationDx="220.0" annotationDy="0.0" annotationTextAlign="LEFT"&gt;
     &lt;annotation&gt;
       &lt;field key="name" /&gt;
       &lt;field key="ac" /&gt;
@@ -67,7 +67,7 @@
       &lt;field key="resistance" /&gt;
     &lt;/annotation&gt;
   &lt;/node&gt;
-  &lt;node id="f3fcd82d-c336-4e41-8bc1-06574a3ba22a" semantic="9e98b398-3076-4be2-9089-40208121369b" x="900.0" y="700.0" width="200.0" height="200.0" annotationDx="100.0" annotationDy="0.0" annotationTextAlign="LEFT"&gt;
+  &lt;node id="f3fcd82d-c336-4e41-8bc1-06574a3ba22a" semantic="9e98b398-3076-4be2-9089-40208121369b" x="900.0" y="700.0" width="200.0" height="200.0" annotationDx="120.0" annotationDy="0.0" annotationTextAlign="LEFT"&gt;
     &lt;annotation&gt;
       &lt;field key="name" /&gt;
       &lt;field key="capacitance" /&gt;
