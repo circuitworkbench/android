@@ -1,43 +1,89 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-<circuit version="5" title="RC Low-Pass Filter">
-  <models />
-  <subckts />
-  <components>
-    <component id="204a15be-9968-4653-b5eb-c8690856e278" type="VOLTAGE_SOURCE" name="V1" x="0.0" y="0.0" rot="0" mirror="false" dc="0">
-      <tran waveType="Sine" vo="0" va="1" freq="1k" td="0" theta="0" phase="0.0" />
-      <pins>
-        <pin id="2184a663-669c-4774-a697-ddea5d563b23" name="N+" netId="" />
-        <pin id="7687580e-465e-4e50-b5f6-b73e3c8384f8" name="N-" netId="" />
-      </pins>
-    </component>
-    <component id="72be9d33-0bc4-4c8d-b9f9-e8ecad846de6" type="RESISTOR" name="R1" x="0.0" y="0.0" rot="0" mirror="false" resistance="1k">
-      <pins>
-        <pin id="ef0dc5e7-a4bf-484a-8a99-b33901450a9c" name="N1" netId="" />
-        <pin id="eb2c2f25-d21c-4484-96fc-94e63fe9ee68" name="N2" netId="" />
-      </pins>
-    </component>
-    <component id="4db89b87-508f-411c-9ecc-63c0c2742b90" type="CAPACITOR" name="C1" x="0.0" y="0.0" rot="0" mirror="false" capacitance="10n" ic="">
-      <pins>
-        <pin id="639d8b1d-5ebc-4e08-a4ab-8c091dc201f7" name="N1" netId="" />
-        <pin id="58bdeb12-4fc0-4665-a61a-ad46f4c48188" name="N2" netId="" />
-      </pins>
-    </component>
-    <component id="07d3c1ff-05b4-4a54-bca6-211638c447d5" type="GROUND" name="U1" x="0.0" y="0.0" rot="0" mirror="false">
-      <pins>
-        <pin id="d14d9259-e8c1-4e9d-8120-e4c1637708b8" name="GND" netId="" />
-      </pins>
-    </component>
-    <component id="a5c36a9f-12dc-42bc-a4b1-2881eff3ca60" type="GROUND" name="U2" x="0.0" y="0.0" rot="0" mirror="false">
-      <pins>
-        <pin id="3a45d9cc-9ccb-43ad-aa56-746f65c83ca3" name="GND" netId="" />
-      </pins>
-    </component>
-  </components>
-  <wires>
-    <wire id="e0d94fe8-c6ac-48e0-a75d-2ae0f0635e70" netId="IN" netName="IN" />
-    <wire id="198efa8a-2ae4-4233-8fa3-db8c142e0d76" netId="OUT" netName="OUT" />
-    <wire id="9b7ef513-ad5c-4538-95ad-59d0d832075a" netId="0" netName="0" />
-    <wire id="6bbe6bd5-0b54-425a-a5e9-2e934354039a" netId="0" netName="0" />
-  </wires>
-  <lastVectorSelection useDefaults="true" />
-</circuit>
+<schematic version="1">
+  <circuit_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;circuit version="5" title="RC Low-Pass Filter"&gt;
+  &lt;models /&gt;
+  &lt;subckts /&gt;
+  &lt;components&gt;
+    &lt;component id="9d5471a3-4a66-4879-9216-b3ee3131075f" type="VOLTAGE_SOURCE" name="V1" x="0.0" y="0.0" rot="0" mirror="false" dc="0"&gt;
+      &lt;ac mag="1" phase="0.0" /&gt;
+      &lt;tran waveType="Sine" vo="0" va="1" freq="1k" td="0" theta="0" phase="0.0" /&gt;
+      &lt;pins&gt;
+        &lt;pin id="f2b8ccec-75cd-4f06-b276-130129e843b4" name="N+" netId="1" /&gt;
+        &lt;pin id="c7d2cd03-3573-47aa-8401-6f6e274b2797" name="N-" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="af1ad7d5-8197-42f8-9fd7-c6971d2ff61b" type="RESISTOR" name="R1" x="0.0" y="0.0" rot="0" mirror="false" resistance="1k"&gt;
+      &lt;pins&gt;
+        &lt;pin id="7db32ed5-4802-4321-9c5a-97122463799e" name="N1" netId="1" /&gt;
+        &lt;pin id="e9475f46-3f40-4686-82d2-1e5f995ccfaa" name="N2" netId="2" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="9e98b398-3076-4be2-9089-40208121369b" type="CAPACITOR" name="C1" x="0.0" y="0.0" rot="0" mirror="false" capacitance="10n" ic=""&gt;
+      &lt;pins&gt;
+        &lt;pin id="52aa2af1-37b8-433c-baae-697148fe274d" name="N1" netId="2" /&gt;
+        &lt;pin id="5a6ce699-8696-4561-9545-3f5fb64f6617" name="N2" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="a53c78be-61b7-4310-9248-f0caea16c14c" type="GROUND" name="U1" x="0.0" y="0.0" rot="0" mirror="false"&gt;
+      &lt;pins&gt;
+        &lt;pin id="473f2bbc-a551-4d57-88ef-061eb1759513" name="GND" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+  &lt;/components&gt;
+  &lt;wires&gt;
+    &lt;wire id="1775ea09-c375-4d74-a699-00f374d64df9" netId="1" netName="" /&gt;
+    &lt;wire id="f824d0a6-f026-459b-a5fd-28bac426cb82" netId="2" netName="" /&gt;
+    &lt;wire id="3125fba5-bf31-4486-b144-4a8dc9156c15" netId="0" netName="" /&gt;
+    &lt;wire id="97d31ad1-436d-4034-a54f-a446f08292b9" netId="0" netName="" /&gt;
+    &lt;wire id="c571f890-b451-41a2-b467-0bd573500026" netId="1" netName="" /&gt;
+    &lt;wire id="b91d27f4-b373-44f9-9a47-aed1e348830a" netId="2" netName="" /&gt;
+    &lt;wire id="8c61c70d-cb9e-460b-a3b2-267b32813536" netId="0" netName="" /&gt;
+    &lt;wire id="9a889f7b-6d39-4552-99de-46a846da42de" netId="0" netName="" /&gt;
+    &lt;wire id="34294a95-640a-48c5-a19e-74a4b5c08fde" netId="1" netName="" /&gt;
+    &lt;wire id="e8ea45b0-2d16-47f6-82dd-2af6c7dc0f22" netId="2" netName="" /&gt;
+    &lt;wire id="f48edafd-0e1e-427c-9435-2c4ef6ecc53d" netId="0" netName="" /&gt;
+    &lt;wire id="fca0fedb-7f9f-435a-8f8b-a05fcd78a847" netId="0" netName="" /&gt;
+  &lt;/wires&gt;
+  &lt;lastSimulation type="ACAN"&gt;
+    &lt;param key="fstart" value="10" /&gt;
+    &lt;param key="nd" value="20" /&gt;
+    &lt;param key="fstop" value="10e6" /&gt;
+    &lt;param key="variation" value="DEC" /&gt;
+  &lt;/lastSimulation&gt;
+  &lt;lastVectorSelection useDefaults="true" /&gt;
+&lt;/circuit&gt;</circuit_data>
+  <diagram_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;diagram version="1"&gt;
+  &lt;node id="91c014cb-0a96-452b-973a-8c93a19a54a4" semantic="9d5471a3-4a66-4879-9216-b3ee3131075f" x="200.0" y="720.0" width="200.0" height="200.0" annotationDx="200.0" annotationDy="0.0" annotationTextAlign="LEFT"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="ac" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="f22925d2-d055-4bcc-834b-851cc005717d" semantic="af1ad7d5-8197-42f8-9fd7-c6971d2ff61b" x="520.0" y="460.0" width="200.0" height="200.0" annotationDx="0.0" annotationDy="-100.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="resistance" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="f3fcd82d-c336-4e41-8bc1-06574a3ba22a" semantic="9e98b398-3076-4be2-9089-40208121369b" x="900.0" y="700.0" width="200.0" height="200.0" annotationDx="100.0" annotationDy="0.0" annotationTextAlign="LEFT"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="capacitance" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="f17a41b7-9c19-432b-b4dd-ab36509f96c5" semantic="a53c78be-61b7-4310-9248-f0caea16c14c" x="240.0" y="1100.0" width="120.0" height="120.0" /&gt;
+  &lt;edge id="bf8f2d43-5a76-46e8-97ee-d42ed496dbc0" sourceId="91c014cb-0a96-452b-973a-8c93a19a54a4" targetId="f22925d2-d055-4bcc-834b-851cc005717d" sourceTerm="N+" targetTerm="N1"&gt;
+    &lt;bendpoint x="300.0" y="560.0" /&gt;
+  &lt;/edge&gt;
+  &lt;edge id="a561f3f8-7256-4a88-b287-2e67d39fcf52" sourceId="f22925d2-d055-4bcc-834b-851cc005717d" targetId="f3fcd82d-c336-4e41-8bc1-06574a3ba22a" sourceTerm="N2" targetTerm="N1"&gt;
+    &lt;bendpoint x="1000.0" y="560.0" /&gt;
+  &lt;/edge&gt;
+  &lt;edge id="dd4a2ddf-028b-4c1c-80a6-787e2bd807e4" sourceId="91c014cb-0a96-452b-973a-8c93a19a54a4" targetId="f17a41b7-9c19-432b-b4dd-ab36509f96c5" sourceTerm="N-" targetTerm="GND" /&gt;
+  &lt;edge id="309b4590-4f23-4fc6-94fb-3b47cafd7e5f" sourceId="f3fcd82d-c336-4e41-8bc1-06574a3ba22a" targetId="91c014cb-0a96-452b-973a-8c93a19a54a4" sourceTerm="N2" targetTerm="N-"&gt;
+    &lt;bendpoint x="1000.0" y="1040.0" /&gt;
+    &lt;bendpoint x="300.0" y="1040.0" /&gt;
+  &lt;/edge&gt;
+&lt;/diagram&gt;</diagram_data>
+</schematic>
