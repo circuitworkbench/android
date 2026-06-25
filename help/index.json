@@ -355,6 +355,12 @@
           "action": null
         },
         {
+          "id": "console",
+          "title": "The Console Panel",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/console.md",
+          "action": null
+        },
+        {
           "id": "problems_panel",
           "title": "The Problems Panel",
           "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/problems_panel.md",
