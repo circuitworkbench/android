@@ -1,43 +1,76 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-<circuit version="5" title="RC Charge/Discharge">
-  <models />
-  <subckts />
-  <components>
-    <component id="7b2e3e1c-55da-466e-a899-de774aed520c" type="VOLTAGE_SOURCE" name="V1" x="0.0" y="0.0" rot="0" mirror="false" dc="0">
-      <tran waveType="Pulse" v1="0" v2="5" td="0" tr="1u" tf="1u" pw="500u" per="1m" />
-      <pins>
-        <pin id="f6825b17-4166-44d9-9faf-5b2b0707b885" name="N+" netId="" />
-        <pin id="6a07c03c-bfaf-418c-9d89-2ad4c9214720" name="N-" netId="" />
-      </pins>
-    </component>
-    <component id="5696b879-370d-45e6-acc3-fad35ac35d55" type="RESISTOR" name="R1" x="0.0" y="0.0" rot="0" mirror="false" resistance="1k">
-      <pins>
-        <pin id="339d31e7-52a1-4e06-927d-2f74fecc054a" name="N1" netId="" />
-        <pin id="e54172ad-a6e5-43eb-a1d1-c5e232e64249" name="N2" netId="" />
-      </pins>
-    </component>
-    <component id="10e2c70c-3248-4e09-b247-e01d8e48a548" type="CAPACITOR" name="C1" x="0.0" y="0.0" rot="0" mirror="false" capacitance="10u" ic="">
-      <pins>
-        <pin id="60d55290-aaeb-4dde-b9ca-3f446e666c99" name="N1" netId="" />
-        <pin id="1aecd9d2-9493-480c-a7ca-0bcc849e13e4" name="N2" netId="" />
-      </pins>
-    </component>
-    <component id="cb1eb749-8435-4471-b05c-8872b11899dd" type="GROUND" name="U1" x="0.0" y="0.0" rot="0" mirror="false">
-      <pins>
-        <pin id="9fc8b68b-f4cd-47d9-8a96-00a9c8f09ffb" name="GND" netId="" />
-      </pins>
-    </component>
-    <component id="810b2295-91a6-4674-a8a2-72213a05657b" type="GROUND" name="U2" x="0.0" y="0.0" rot="0" mirror="false">
-      <pins>
-        <pin id="c7b8dc37-7f66-412d-8bfd-70e910570a9d" name="GND" netId="" />
-      </pins>
-    </component>
-  </components>
-  <wires>
-    <wire id="589cdc5a-d29a-48aa-ac18-2b11c342f82d" netId="IN" netName="IN" />
-    <wire id="58689875-7070-4caa-a35a-84852c3a43a6" netId="OUT" netName="OUT" />
-    <wire id="e71f9b5e-ed74-40cb-86d2-e1e17a89ac28" netId="0" netName="0" />
-    <wire id="49f4bcb9-cdd2-4575-957a-3f827e438ed8" netId="0" netName="0" />
-  </wires>
-  <lastVectorSelection useDefaults="true" />
-</circuit>
+<schematic version="1">
+  <circuit_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;circuit version="5" title="RC Charge/Discharge"&gt;
+  &lt;models /&gt;
+  &lt;subckts /&gt;
+  &lt;components&gt;
+    &lt;component id="9513b949-cce3-4897-bbb9-fee8f11e6368" type="VOLTAGE_SOURCE" name="V1" x="0.0" y="0.0" rot="0" mirror="false" dc="0"&gt;
+      &lt;tran waveType="Pulse" v1="0" v2="5" td="0" tr="1u" tf="1u" pw="500u" per="1m" /&gt;
+      &lt;pins&gt;
+        &lt;pin id="a571a13b-ca34-4aa6-b616-b036bfa9e906" name="N+" netId="1" /&gt;
+        &lt;pin id="171946bd-e62d-42e8-89bd-49026352684f" name="N-" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="134e1e26-7082-4773-9c94-fee7a21b6e50" type="RESISTOR" name="R1" x="0.0" y="0.0" rot="0" mirror="false" resistance="1k"&gt;
+      &lt;pins&gt;
+        &lt;pin id="612f8eaa-15ac-4253-b4f5-a0bb2288202a" name="N1" netId="1" /&gt;
+        &lt;pin id="b5a91251-8a30-463e-abcc-67385d5c4071" name="N2" netId="OUT" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="b29d0947-492e-430d-96a1-e993f02ac8da" type="CAPACITOR" name="C1" x="0.0" y="0.0" rot="0" mirror="false" capacitance="10u" ic=""&gt;
+      &lt;pins&gt;
+        &lt;pin id="5779f060-4fb6-426b-8956-b8d2209e38dd" name="N1" netId="OUT" /&gt;
+        &lt;pin id="1e16e6f7-fff6-40b3-bb8b-28fed7f3b239" name="N2" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="c9eec669-65b0-4ae9-a2b9-d74394739881" type="GROUND" name="U1" x="0.0" y="0.0" rot="0" mirror="false"&gt;
+      &lt;pins&gt;
+        &lt;pin id="069cf0db-795d-445d-b6f5-325ba86d4c8e" name="GND" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="bc5ebc74-bd3e-4083-a3c5-212d239884c8" type="GROUND" name="U2" x="0.0" y="0.0" rot="0" mirror="false"&gt;
+      &lt;pins&gt;
+        &lt;pin id="0bcf5265-752a-495d-a41d-33a859c32eab" name="GND" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+  &lt;/components&gt;
+  &lt;wires&gt;
+    &lt;wire id="c5072d5b-97a5-400e-a2f5-aef8010e1120" netId="1" netName="" /&gt;
+    &lt;wire id="1530bd10-cee0-4685-86e0-b65bb8f72fc6" netId="OUT" netName="OUT" /&gt;
+    &lt;wire id="1178ef63-ff07-4fe7-9f14-eaa66fa42a54" netId="0" netName="" /&gt;
+    &lt;wire id="fdb02b5d-4218-4513-8d4c-fa04668ba579" netId="0" netName="" /&gt;
+  &lt;/wires&gt;
+  &lt;lastVectorSelection useDefaults="true" /&gt;
+&lt;/circuit&gt;</circuit_data>
+  <diagram_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;diagram version="1"&gt;
+  &lt;node id="e5a62c7d-71df-4efe-b849-d7b6b1962de1" semantic="9513b949-cce3-4897-bbb9-fee8f11e6368" x="200.0" y="720.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="2cf19d9f-da2e-41f8-8aed-c26d0bcb9b4d" semantic="134e1e26-7082-4773-9c94-fee7a21b6e50" x="520.0" y="460.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="resistance" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="773fc3ff-e910-4499-a557-ee6e849d4ba8" semantic="b29d0947-492e-430d-96a1-e993f02ac8da" x="900.0" y="700.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="capacitance" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="07434ce6-6a8c-4c61-b640-e707ff37ac44" semantic="c9eec669-65b0-4ae9-a2b9-d74394739881" x="240.0" y="1100.0" width="120.0" height="120.0" /&gt;
+  &lt;node id="5639c530-b7f4-44ae-9915-d547e6f80a9b" semantic="bc5ebc74-bd3e-4083-a3c5-212d239884c8" x="940.0" y="1100.0" width="120.0" height="120.0" /&gt;
+  &lt;edge id="47dca4cd-b012-4d21-bd66-c35929a0cae0" sourceId="e5a62c7d-71df-4efe-b849-d7b6b1962de1" targetId="2cf19d9f-da2e-41f8-8aed-c26d0bcb9b4d" sourceTerm="N+" targetTerm="N1"&gt;
+    &lt;bendpoint x="300.0" y="560.0" /&gt;
+  &lt;/edge&gt;
+  &lt;edge id="a95e2abc-0fb3-4dd1-8d42-22bd47d93e31" sourceId="2cf19d9f-da2e-41f8-8aed-c26d0bcb9b4d" targetId="773fc3ff-e910-4499-a557-ee6e849d4ba8" sourceTerm="N2" targetTerm="N1" netName="OUT"&gt;
+    &lt;bendpoint x="1000.0" y="560.0" /&gt;
+  &lt;/edge&gt;
+  &lt;edge id="05ca4acd-b480-49d2-ba32-c2b35ade2312" sourceId="e5a62c7d-71df-4efe-b849-d7b6b1962de1" targetId="07434ce6-6a8c-4c61-b640-e707ff37ac44" sourceTerm="N-" targetTerm="GND" /&gt;
+  &lt;edge id="789422b6-304d-47fa-8c97-1980da47c2a7" sourceId="773fc3ff-e910-4499-a557-ee6e849d4ba8" targetId="5639c530-b7f4-44ae-9915-d547e6f80a9b" sourceTerm="N2" targetTerm="GND" /&gt;
+&lt;/diagram&gt;</diagram_data>
+</schematic>

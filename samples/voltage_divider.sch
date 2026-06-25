@@ -1,42 +1,70 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-<circuit version="5" title="Voltage Divider">
-  <models />
-  <subckts />
-  <components>
-    <component id="446a207c-9893-4270-a206-f3f8162ea785" type="VOLTAGE_DC" name="V1" x="0.0" y="0.0" rot="0" mirror="false" dc="5">
-      <pins>
-        <pin id="d9942dd1-7f5d-4027-84ee-91e4d93501d1" name="N+" netId="" />
-        <pin id="183334d8-0d0e-4245-830b-d7fa3b98ef37" name="N-" netId="" />
-      </pins>
-    </component>
-    <component id="8249cb5c-41c4-4a82-adfa-5fe3becf4981" type="RESISTOR" name="R1" x="0.0" y="0.0" rot="0" mirror="false" resistance="10k">
-      <pins>
-        <pin id="76d1f531-7be6-494c-b4a6-f31111302600" name="N1" netId="" />
-        <pin id="75ea2211-1fa1-44f3-9fcf-868e86d504f9" name="N2" netId="" />
-      </pins>
-    </component>
-    <component id="15b3ed26-6ed7-44d5-a444-b4d55bd83272" type="RESISTOR" name="R2" x="0.0" y="0.0" rot="0" mirror="false" resistance="10k">
-      <pins>
-        <pin id="c006e89c-5622-4933-80f1-712e4299946c" name="N1" netId="" />
-        <pin id="f811db90-15ec-4f7a-be10-3c9504b17d6d" name="N2" netId="" />
-      </pins>
-    </component>
-    <component id="38dbaeb8-ed8b-48a1-acd5-6d7377c4ea2b" type="GROUND" name="U1" x="0.0" y="0.0" rot="0" mirror="false">
-      <pins>
-        <pin id="47ff87ee-7431-4dfb-8e29-2db75ca678b6" name="GND" netId="" />
-      </pins>
-    </component>
-    <component id="fa4fbd04-85b9-4fb7-9d03-4778c768436c" type="GROUND" name="U2" x="0.0" y="0.0" rot="0" mirror="false">
-      <pins>
-        <pin id="5c407882-8a69-4143-8110-a80d01e5a940" name="GND" netId="" />
-      </pins>
-    </component>
-  </components>
-  <wires>
-    <wire id="9c42d8b2-559d-4eb1-9d50-de41cd45333d" netId="VIN" netName="VIN" />
-    <wire id="e0d3ace5-7c7f-4bab-bb37-f41e49217ce7" netId="VOUT" netName="VOUT" />
-    <wire id="dbe905f4-b352-4034-b485-4c14edf7cea5" netId="0" netName="0" />
-    <wire id="3fc028b9-6d16-4c21-addd-d9dd4f031f7e" netId="0" netName="0" />
-  </wires>
-  <lastVectorSelection useDefaults="true" />
-</circuit>
+<schematic version="1">
+  <circuit_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;circuit version="5" title="Voltage Divider"&gt;
+  &lt;models /&gt;
+  &lt;subckts /&gt;
+  &lt;components&gt;
+    &lt;component id="e6b51177-2894-408e-97ee-98cb34587fad" type="VOLTAGE_DC" name="V1" x="0.0" y="0.0" rot="0" mirror="false" dc="5"&gt;
+      &lt;pins&gt;
+        &lt;pin id="2995aa21-d25b-4796-9ed4-20806ee396ac" name="N+" netId="" /&gt;
+        &lt;pin id="118c0b11-5c46-4a13-82d5-eaa564383ac0" name="N-" netId="" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="f726d051-e991-4b9c-958d-623365c5f331" type="RESISTOR" name="R1" x="0.0" y="0.0" rot="0" mirror="false" resistance="10k"&gt;
+      &lt;pins&gt;
+        &lt;pin id="8530f190-978c-47ef-a2c9-77ac58f7fadf" name="N1" netId="VIN" /&gt;
+        &lt;pin id="05c290e4-81ac-47c1-87e6-df3c37d2acbf" name="N2" netId="VOUT" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="2b9ca612-8418-4c75-8d62-4e008539f349" type="RESISTOR" name="R2" x="0.0" y="0.0" rot="0" mirror="false" resistance="10k"&gt;
+      &lt;pins&gt;
+        &lt;pin id="005066e0-145d-4831-a69b-f7ef171312d4" name="N1" netId="VOUT" /&gt;
+        &lt;pin id="4cb7e96c-e30f-4a5f-8808-9882c86d027f" name="N2" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="92b869fc-82d8-401f-8d31-bb37657b4de0" type="GROUND" name="U1" x="0.0" y="0.0" rot="0" mirror="false"&gt;
+      &lt;pins&gt;
+        &lt;pin id="3b32a323-3ead-4cbd-8b3b-c1a8cc5f70f8" name="GND" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+  &lt;/components&gt;
+  &lt;wires&gt;
+    &lt;wire id="84b9bf8d-69b0-4e51-bd1b-69bc941e0272" netId="VIN" netName="VIN" /&gt;
+    &lt;wire id="3c986182-469b-4219-bb3b-072ce3d8bc40" netId="VOUT" netName="VOUT" /&gt;
+    &lt;wire id="35770b14-4b29-4da5-a715-18e6a40dc755" netId="0" netName="" /&gt;
+    &lt;wire id="d05d0608-86ee-4094-afb9-cef2fedca944" netId="0" netName="" /&gt;
+  &lt;/wires&gt;
+  &lt;lastVectorSelection useDefaults="true" /&gt;
+&lt;/circuit&gt;</circuit_data>
+  <diagram_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;diagram version="1"&gt;
+  &lt;node id="0b359e2c-ff5a-4a3a-ac11-a449acb2e2c1" semantic="e6b51177-2894-408e-97ee-98cb34587fad" x="200.0" y="720.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="9b53e4e2-f598-43c8-b6e7-3d7ebe9a597f" semantic="f726d051-e991-4b9c-958d-623365c5f331" x="520.0" y="460.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="resistance" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="30deb371-58e0-4951-8854-39551d185a44" semantic="2b9ca612-8418-4c75-8d62-4e008539f349" x="520.0" y="900.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="resistance" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="65dc1e15-ec2f-42d6-93de-90d853d6b328" semantic="92b869fc-82d8-401f-8d31-bb37657b4de0" x="240.0" y="1200.0" width="120.0" height="120.0" /&gt;
+  &lt;edge id="b7d62f06-9208-4e82-b2a4-f67ced74434e" sourceId="0b359e2c-ff5a-4a3a-ac11-a449acb2e2c1" targetId="9b53e4e2-f598-43c8-b6e7-3d7ebe9a597f" sourceTerm="P" targetTerm="N1" netName="VIN"&gt;
+    &lt;bendpoint x="300.0" y="560.0" /&gt;
+  &lt;/edge&gt;
+  &lt;edge id="05713a20-1391-4a30-8e77-5e15932360ff" sourceId="9b53e4e2-f598-43c8-b6e7-3d7ebe9a597f" targetId="30deb371-58e0-4951-8854-39551d185a44" sourceTerm="N2" targetTerm="N1" netName="VOUT" /&gt;
+  &lt;edge id="be0bb0e6-bc1c-48a1-ad15-0113e4cf77a6" sourceId="0b359e2c-ff5a-4a3a-ac11-a449acb2e2c1" targetId="65dc1e15-ec2f-42d6-93de-90d853d6b328" sourceTerm="N" targetTerm="GND" /&gt;
+  &lt;edge id="d7888661-3651-44c7-bf7e-b69248e62f1f" sourceId="30deb371-58e0-4951-8854-39551d185a44" targetId="65dc1e15-ec2f-42d6-93de-90d853d6b328" sourceTerm="N2" targetTerm="GND"&gt;
+    &lt;bendpoint x="620.0" y="1260.0" /&gt;
+    &lt;bendpoint x="300.0" y="1260.0" /&gt;
+  &lt;/edge&gt;
+&lt;/diagram&gt;</diagram_data>
+</schematic>

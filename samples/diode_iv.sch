@@ -1,55 +1,86 @@
 <?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
-<circuit version="5" title="Diode I-V Curve">
-  <models>
-    <model kind="SpiceModel" name="1N4148" deviceType="D">
-      <param key="is" value="4.352e-9" />
-      <param key="n" value="1.906" />
-      <param key="bv" value="110" />
-      <param key="ibv" value="0.0001" />
-      <param key="rs" value="0.6458" />
-      <param key="cjo" value="7.048e-13" />
-      <param key="vj" value="0.869" />
-      <param key="m" value="0.03" />
-      <param key="fc" value="0.5" />
-      <param key="tt" value="3.48e-9" />
-    </model>
-  </models>
-  <subckts />
-  <components>
-    <component id="7ec3430e-03d6-4a1f-af9c-d6a8924b98e8" type="VOLTAGE_DC" name="V1" x="0.0" y="0.0" rot="0" mirror="false" dc="0">
-      <pins>
-        <pin id="27c92471-4696-4755-b093-58092891da94" name="N+" netId="" />
-        <pin id="95628122-e60e-4980-8af8-4163e79dd1e6" name="N-" netId="" />
-      </pins>
-    </component>
-    <component id="c00b1900-8a6e-4ac2-9fe1-d63fc4ee7bdc" type="RESISTOR" name="R1" x="0.0" y="0.0" rot="0" mirror="false" resistance="100">
-      <pins>
-        <pin id="6f9e6d6e-5384-47d9-be02-7ebd8bbe504d" name="N1" netId="" />
-        <pin id="5264bc35-5027-4a5b-a1f9-33947ec24534" name="N2" netId="" />
-      </pins>
-    </component>
-    <component id="a17765a7-e0fb-47da-aaa6-644eed4d4c91" type="DIODE" name="D1" x="0.0" y="0.0" rot="0" mirror="false" modelName="1N4148" off="false" temp="27.0" dtemp="0.0" area="1.0" pj="0.0">
-      <pins>
-        <pin id="3c796c2b-cf92-42e4-85f8-6ec7dc0a99a2" name="NA" netId="" />
-        <pin id="15c0f573-b451-4260-87d9-208ae6050b50" name="NC" netId="" />
-      </pins>
-    </component>
-    <component id="13df6733-785a-4b4d-b232-47ba177a4508" type="GROUND" name="U1" x="0.0" y="0.0" rot="0" mirror="false">
-      <pins>
-        <pin id="75d62d7f-a491-49a4-9d8e-3d82caa4c6c7" name="GND" netId="" />
-      </pins>
-    </component>
-    <component id="6a69b606-6108-48fe-8adc-b4b849c68ef8" type="GROUND" name="U2" x="0.0" y="0.0" rot="0" mirror="false">
-      <pins>
-        <pin id="91698270-d94a-465a-8837-b86597f4b0a5" name="GND" netId="" />
-      </pins>
-    </component>
-  </components>
-  <wires>
-    <wire id="beca32ef-ccc8-46db-b3b6-49b8ef5966cc" netId="VSWEEP" netName="VSWEEP" />
-    <wire id="d7459f34-be42-4b71-acef-cce3c9bce9b8" netId="ANODE" netName="ANODE" />
-    <wire id="27fe73a5-ac8f-49e5-8015-cbabc0510696" netId="0" netName="0" />
-    <wire id="883e056a-9f36-4a3f-8d2f-5d51fb9b28cc" netId="0" netName="0" />
-  </wires>
-  <lastVectorSelection useDefaults="true" />
-</circuit>
+<schematic version="1">
+  <circuit_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;circuit version="5" title="Diode I-V Curve"&gt;
+  &lt;models&gt;
+    &lt;model kind="SpiceModel" name="1N4148" deviceType="D"&gt;
+      &lt;param key="is" value="4.352e-9" /&gt;
+      &lt;param key="n" value="1.906" /&gt;
+      &lt;param key="bv" value="110" /&gt;
+      &lt;param key="ibv" value="0.0001" /&gt;
+      &lt;param key="rs" value="0.6458" /&gt;
+      &lt;param key="cjo" value="7.048e-13" /&gt;
+      &lt;param key="vj" value="0.869" /&gt;
+      &lt;param key="m" value="0.03" /&gt;
+      &lt;param key="fc" value="0.5" /&gt;
+      &lt;param key="tt" value="3.48e-9" /&gt;
+    &lt;/model&gt;
+  &lt;/models&gt;
+  &lt;subckts /&gt;
+  &lt;components&gt;
+    &lt;component id="9e35b31e-530e-4589-9707-8b6b91cd5f3d" type="VOLTAGE_DC" name="V1" x="0.0" y="0.0" rot="0" mirror="false" dc="0"&gt;
+      &lt;pins&gt;
+        &lt;pin id="1fe0bbb8-c95b-4657-ac0e-1def5a615614" name="N+" netId="" /&gt;
+        &lt;pin id="540381c9-984d-4909-856e-404fd00458d0" name="N-" netId="" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="85e3ae05-2b81-428c-a694-8bdc33e6ea9a" type="RESISTOR" name="R1" x="0.0" y="0.0" rot="0" mirror="false" resistance="100"&gt;
+      &lt;pins&gt;
+        &lt;pin id="39b03d52-665f-4b22-b193-4a4b5f15071d" name="N1" netId="1" /&gt;
+        &lt;pin id="421037f3-a5fd-4f30-a031-591ae63e987d" name="N2" netId="2" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="78ba8a62-7f02-4b49-896b-006c7e8af878" type="DIODE" name="D1" x="0.0" y="0.0" rot="0" mirror="false" modelName="1N4148" off="false" temp="27.0" dtemp="0.0" area="1.0" pj="0.0"&gt;
+      &lt;pins&gt;
+        &lt;pin id="4e75bbff-e963-4f92-a074-3b7f3941adea" name="NA" netId="" /&gt;
+        &lt;pin id="4120f36a-40a7-4c9f-99ed-6009868aab29" name="NC" netId="" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="d2a53d29-5ec3-42ea-b3ad-ab867cba50a3" type="GROUND" name="U1" x="0.0" y="0.0" rot="0" mirror="false"&gt;
+      &lt;pins&gt;
+        &lt;pin id="5b396269-73bf-4e55-b14a-971762d3c833" name="GND" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+    &lt;component id="a427a284-68bf-4a89-b0b0-cd2100b0d87f" type="GROUND" name="U2" x="0.0" y="0.0" rot="0" mirror="false"&gt;
+      &lt;pins&gt;
+        &lt;pin id="e733aa09-5f84-497f-a14c-8d57d67bc754" name="GND" netId="0" /&gt;
+      &lt;/pins&gt;
+    &lt;/component&gt;
+  &lt;/components&gt;
+  &lt;wires&gt;
+    &lt;wire id="80f2ea71-1a98-412f-8a14-7a52995e6eb3" netId="1" netName="" /&gt;
+    &lt;wire id="042ef041-9990-45eb-acc7-fc799a683bb0" netId="2" netName="" /&gt;
+    &lt;wire id="eca922ef-e8c4-41bd-93ad-01d1dfebae25" netId="0" netName="" /&gt;
+    &lt;wire id="9463998c-483f-429e-878d-0ce37e7a46e9" netId="0" netName="" /&gt;
+  &lt;/wires&gt;
+  &lt;lastVectorSelection useDefaults="true" /&gt;
+&lt;/circuit&gt;</circuit_data>
+  <diagram_data>&lt;?xml version='1.0' encoding='UTF-8' standalone='yes' ?&gt;
+&lt;diagram version="1"&gt;
+  &lt;node id="3ee26531-f417-4cb5-9ca2-c07eafdcd45f" semantic="9e35b31e-530e-4589-9707-8b6b91cd5f3d" x="200.0" y="720.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="0a9a99ba-c62e-4e86-98f2-dec29dd3c212" semantic="85e3ae05-2b81-428c-a694-8bdc33e6ea9a" x="520.0" y="460.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="resistance" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="115e48de-e035-49ff-b884-28eabef8b1ec" semantic="78ba8a62-7f02-4b49-896b-006c7e8af878" x="900.0" y="460.0" width="200.0" height="200.0"&gt;
+    &lt;annotation&gt;
+      &lt;field key="name" /&gt;
+      &lt;field key="modelParams" /&gt;
+    &lt;/annotation&gt;
+  &lt;/node&gt;
+  &lt;node id="1a005454-c08f-4cc8-9641-f41d03e7ed4c" semantic="d2a53d29-5ec3-42ea-b3ad-ab867cba50a3" x="240.0" y="1100.0" width="120.0" height="120.0" /&gt;
+  &lt;node id="4d14ab40-20be-4587-908e-c1015824eeae" semantic="a427a284-68bf-4a89-b0b0-cd2100b0d87f" x="940.0" y="1100.0" width="120.0" height="120.0" /&gt;
+  &lt;edge id="1f91fe32-9837-44a6-8ebc-1f6c392ccd73" sourceId="3ee26531-f417-4cb5-9ca2-c07eafdcd45f" targetId="0a9a99ba-c62e-4e86-98f2-dec29dd3c212" sourceTerm="P" targetTerm="N1"&gt;
+    &lt;bendpoint x="300.0" y="560.0" /&gt;
+  &lt;/edge&gt;
+  &lt;edge id="89a97989-3722-46d4-bfe8-d325d829039c" sourceId="0a9a99ba-c62e-4e86-98f2-dec29dd3c212" targetId="115e48de-e035-49ff-b884-28eabef8b1ec" sourceTerm="N2" targetTerm="A" /&gt;
+  &lt;edge id="447990f2-dc19-4965-b1f2-dc487c9e4c8b" sourceId="3ee26531-f417-4cb5-9ca2-c07eafdcd45f" targetId="1a005454-c08f-4cc8-9641-f41d03e7ed4c" sourceTerm="N" targetTerm="GND" /&gt;
+  &lt;edge id="6d075a2d-1594-40a5-8cfb-c57c377d8b30" sourceId="115e48de-e035-49ff-b884-28eabef8b1ec" targetId="4d14ab40-20be-4587-908e-c1015824eeae" sourceTerm="K" targetTerm="GND" /&gt;
+&lt;/diagram&gt;</diagram_data>
+</schematic>
