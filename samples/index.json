@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "updated": "2026-06-25",
+  "samples": [
+    {
+      "id": "rc_lowpass",
+      "title": "RC Low-Pass Filter",
+      "description": "RC filter with buffered output, cutoff ~15.9 kHz",
+      "category": "Filters",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/rc_lowpass.sch"
+    },
+    {
+      "id": "voltage_divider",
+      "title": "Resistive Voltage Divider",
+      "description": "Simple two-resistor voltage divider for DC analysis",
+      "category": "Passive",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/voltage_divider.sch"
+    },
+    {
+      "id": "diode_iv",
+      "title": "Diode I-V Curve",
+      "description": "1N4148 diode DC sweep showing the forward bias knee",
+      "category": "Semiconductors",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/diode_iv.sch"
+    },
+    {
+      "id": "bjt_switch",
+      "title": "NPN BJT Switch",
+      "description": "2N2222 low-side switch with base resistor, transient analysis",
+      "category": "Semiconductors",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/bjt_switch.sch"
+    },
+    {
+      "id": "rc_transient",
+      "title": "RC Charge/Discharge",
+      "description": "Capacitor charge and discharge transient with pulse source",
+      "category": "Passive",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/rc_transient.sch"
+    }
+  ]
+}
