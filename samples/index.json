@@ -3,6 +3,55 @@
   "updated": "2026-06-25",
   "samples": [
     {
+      "id": "ohms_law",
+      "title": "Ohms Law",
+      "description": "Demonstration of Ohm's Law",
+      "category": "Basic",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/basic/Ohms-law.sch"
+    },
+    {
+      "id": "rc_discharging",
+      "title": "RC Discharging",
+      "description": "Demonstration RC discharge",
+      "category": "Basic",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/basic/RC-Discharging.sch"
+    },
+    {
+      "id": "rl_discharging",
+      "title": "RL Discharging",
+      "description": "Demonstration RL discharge",
+      "category": "Basic",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/basic/RL-Discharging.sch"
+    },
+    {
+      "id": "vcvs",
+      "title": "VCVS",
+      "description": "Voltage-Controlled Voltage Source(VCVS) Test",
+      "category": "Basic",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/basic/Vcvs.sch"
+    },
+    {
+      "id": "vccs",
+      "title": "VCCS",
+      "description": "Voltage-Controlled Current Source(VCCS) Test",
+      "category": "Basic",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/basic/Vccs.sch"
+    },
+    {
+      "id": "cccs",
+      "title": "CCCS",
+      "description": "Current-Controlled Current Source(CCCS) Test",
+      "category": "Basic",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/basic/Cccs.sch"
+    },
+    {
+      "id": "ccvs",
+      "title": "CCVS",
+      "description": "Current-Controlled Voltage Source(CCVS) Test",
+      "category": "Basic",
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/samples/basic/Ccvs.sch"
+    },
+    {
       "id": "rc_lowpass",
       "title": "RC Low-Pass Filter",
       "description": "RC filter with buffered output, cutoff ~15.9 kHz",
