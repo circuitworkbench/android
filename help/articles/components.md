@@ -1,6 +1,6 @@
 CircuitWorkbench supports the following SPICE component types:
 
-PASSIVE DEVICES
+ELEMENTARY DEVICES
 - Resistor (R): Fixed or variable resistance. SPICE element R.
 - Capacitor (C): Fixed, variable, or polarised capacitance. Supports initial conditions. SPICE element C.
 - Inductor (L): Fixed or variable inductance. Supports initial conditions. SPICE element L.
@@ -27,9 +27,11 @@ All semiconductor components require a SPICE model assignment before simulation.
 - MOSFET (M): NMOS or PMOS, 3-pin or 4-pin (with substrate).
 - JFET (J): N-channel or P-channel junction FET.
 
-TRANSFORMERS
-- Ideal Transformer: Lossless coupled inductors with turns ratio N.
-- Non-Ideal Transformer: Includes primary/secondary resistance, leakage inductance, and magnetising inductance.
+METERS
+If any meters are shown in the circuit the defaults simulation output vectors are meter vectors.
+- Ammeter: Use to determine current through branch circuits. Modeled as a 0V voltage source.
+- Voltmeter: Measure voltage difference between two nodes in a circuit.
+- Wattmeter: Measure power through a circuit element.
 
 TRANSMISSION LINES
 - Ideal T-Line (T): Lossless transmission line defined by characteristic impedance and delay.
