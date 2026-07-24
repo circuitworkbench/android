@@ -2,7 +2,7 @@ Tap the Save icon in the editor toolbar to save the current circuit. The circuit
 
 CircuitWorkbench does not auto-save. Remember to save before closing the editor or switching to another app, especially after a long editing session.
 
-The title bar shows an unsaved-changes indicator (a dot or asterisk next to the circuit name) whenever there are changes that have not been saved. This clears when you save.
+The title bar shows an unsaved-changes indicator (an asterisk(*) before the file name in the toolbar) whenever there are changes that have not been saved. This clears when you save.
 
 WHAT GETS SAVED
 
