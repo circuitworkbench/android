@@ -8,9 +8,9 @@ Uninstalling CircuitWorkbench will delete all circuits stored in app-private sto
 
 DOCUMENT STORAGE
 
-Saves circuits to a folder of your choosing on device storage or cloud storage such as Google Drive. You will be prompted to choose a folder the first time you save in this mode.
+Saves circuits to the 'CircuitWorkbench' folder in the Documents root folder of the Android filesystem.
 
-Files saved to document storage are visible to other apps, can be shared directly via your file manager, and persist after the app is uninstalled. This mode is recommended if you want to back up circuits manually, share them with a desktop SPICE tool, or work across devices via cloud sync.
+Files saved to document storage are visible to other apps, can be shared directly via your file manager, and persist after the app is uninstalled. This mode is recommended if you want to back up circuits manually, share them with a desktop SPICE too.
 
 SWITCHING MODES
 
