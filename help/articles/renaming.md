@@ -1,6 +1,4 @@
-To rename a circuit from the home screen, long-press the circuit card to reveal the context menu, then tap Rename. Enter the new name and confirm.
-
-To rename from inside the editor, open the overflow menu (three dots) and tap Rename.
+To rename a circuit from the home screen, open the context menu by tapping the overflow icon(three dots) on the file card, then tap Rename. Enter the new file name and confirm.
 
 The filename on disk is updated to match the new name. If you are using document storage, the file in your chosen folder is also renamed.
 
