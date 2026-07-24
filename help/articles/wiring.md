@@ -1,7 +1,7 @@
 DRAWING WIRES
-Tap the Wire tool in the palette (or tap TOOL_CONNECT). Tap a pin on a component to start a wire, then tap a pin on another component to finish it. CircuitWorkbench draws a right-angle wire between the two points automatically.
+Tap the Wire tool in the palette. Tap a pin on the source component to start a wire, then tap a pin on the target component to finish it. CircuitWorkbench draws an orthogonal or straight wire between the two pins automatically.
 
-You can also tap an empty point on the canvas to start a wire and route it to a pin. Wires can connect to other wires to form T-junctions and more complex topologies.
+You can also start a wiring creation with a component pin as the source and another as the target.
 
 PIN INDICATORS
 Component pins are shown as small tick marks extending from the component body. A pin changes appearance when it is connected to a wire. Watch for unconnected pins in the Problems panel — they will flag any pin that should be wired but is not.
