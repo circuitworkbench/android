@@ -1,4 +1,4 @@
-By default ngspice auto-numbers nets as node 1, node 2, node 3, and so on. The assignment is determined each time you run a simulation and can change if you add or remove wires.
+By default CircuitWorkbench auto-numbers netlist nodes as 1, 2, 3, and so on. The assignment is determined each time you run a simulation and can change if you add or remove wires.
 
 ASSIGNING A NET NAME
 Select any wire segment on the net you want to name. In the Properties panel, edit the Node Name field. The name propagates automatically to every wire segment on the same electrically-connected net.
@@ -7,7 +7,7 @@ Leave the field blank to clear a user-defined name and revert to auto-numbering.
 
 WHY NET NAMES MATTER
 Named nets appear in simulation output using your chosen name. For example:
-- A net named VIN produces the output vector v(VIN) in OP and AC results.
+- A net named IN produces the output vector v(IN) in OP and AC results.
 - A net named OUT produces v(OUT) in transient results.
 
 Without net names, results show v(1), v(2), etc. — hard to interpret when you have many nodes.
