@@ -15,7 +15,7 @@ EOUT OUT GND MID GND 1
 The ports (IN, OUT, GND) are the external connection points. Parameters (RVAL, CVAL) are default values that individual instances can override.
 
 HOW CIRCUITWORKBENCH RENDERS SUBCIRCUITS
-Subcircuit instances appear as IC-style rectangular blocks on the canvas. The subcircuit name is displayed in the centre. Named port stubs extend from the left and right sides, labelled with the port names. The block height adjusts automatically based on the number of ports.
+Subcircuit instances appear as IC-style rectangular blocks on the canvas. The subcircuit name is displayed in the center. Named port stubs extend from the left and right sides, labelled with the port names. The block height adjusts automatically based on the number of ports.
 
 SUBCIRCUIT TEMPLATES
 A subcircuit template is the definition — the .subckt block. An instance is a placed copy on the canvas that references the template. One template can have many instances. The template's .subckt block is written once into the netlist regardless of how many instances reference it.
