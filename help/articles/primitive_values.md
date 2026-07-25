@@ -1,4 +1,4 @@
-Primitive fields hold a direct numerical value that is passed to ngspice as-is. Examples include resistance, capacitance, inductance, and source voltages and currents.
+Primitive fields hold a direct numerical value that is passed to ngspice engine as-is. Examples include resistance, capacitance, inductance, and source voltages and currents.
 
 ENTERING VALUES
 Type the value directly into the field. You can use:
