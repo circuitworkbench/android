@@ -4,6 +4,7 @@ WHAT CAN BE UNDONE
 Every canvas operation is undoable:
 - Placing a component
 - Deleting a component or wire
+- Copy/Paste operation
 - Moving a component
 - Rotating or mirroring a component
 - Drawing a wire
