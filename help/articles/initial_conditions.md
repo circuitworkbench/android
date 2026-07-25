@@ -3,6 +3,7 @@ Initial conditions (IC) tell ngspice the voltage or current state of an energy-s
 COMPONENTS THAT SUPPORT INITIAL CONDITIONS
 - Capacitor: Initial voltage across the capacitor (IC in volts)
 - Inductor: Initial current through the inductor (IC in amperes)
+- Semiconductors
 - Ideal Transmission Line: Initial voltages and currents at both ports (V1, V2, I1, I2)
 - Lossy Transmission Line: Same as ideal T-Line
 
