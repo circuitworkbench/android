@@ -11,6 +11,3 @@ Go to Settings and tap Symbol Style. Choose IEC or ANSI. The change takes effect
 
 SIMULATION BEHAVIOUR
 The symbol style is purely cosmetic. IEC and ANSI symbols represent identical SPICE elements and produce identical simulation results. The choice affects only how the schematic looks.
-
-SUBCIRCUIT INSTANCES
-Subcircuit instances always render as IC-style rectangular blocks regardless of the symbol style setting. This is consistent with how subcircuits are represented in most schematic tools.
