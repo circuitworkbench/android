@@ -145,6 +145,12 @@
           "action": null
         },
         {
+          "id": "copy_paste",
+          "title": "Copy/Paste Operation",
+          "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/copy_paste.md",
+          "action": null
+        },
+        {
           "id": "delete",
           "title": "Deleting Components and Wires",
           "contentUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/help/articles/delete.md",
