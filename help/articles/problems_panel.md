@@ -1,4 +1,4 @@
-The Problems panel is the rightmost tab at the bottom of the schematic editor. It lists validation errors that would prevent a successful simulation. The panel updates every time you save the circuit.
+The Problems panel is the fourth tab at the bottom of the schematic editor. It lists validation errors that would prevent a successful simulation. The panel updates every time you save the circuit.
 
 TYPES OF PROBLEMS
 
