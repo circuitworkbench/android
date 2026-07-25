@@ -17,7 +17,7 @@ PARAMETERS
 OP has no sweep parameters — just select your output vectors and run.
 
 RESULTS
-OP results are displayed as a table of node name → voltage pairs and source name → current pairs. Device parameter results (requested via @device[param] vectors) appear in a separate section.
+OP results are displayed as overlays on the diagram canvas. They are drawn close to the component they are associated with.
 
 CONVERGENCE
 OP analysis can sometimes fail to converge for circuits with strong nonlinearities (e.g. circuits with many transistors, feedback loops, or poorly initialised bias points). If OP fails:
