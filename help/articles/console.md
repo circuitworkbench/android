@@ -12,9 +12,6 @@ Warning messages (amber): ngspice warnings about model parameters that are out o
 
 Error messages (red): Fatal errors that caused the simulation to fail. These are the same errors that appear in the error dialog, but the console shows the full untruncated ngspice text which often contains more detail about the specific node, model, or parameter that caused the problem.
 
-RUN SEPARATORS
-Each new simulation run is marked with a separator line showing the analysis type (Operating Point, AC Analysis, DC Sweep, Transient Analysis). This makes it easy to distinguish output from multiple consecutive runs, especially when iterating on a design.
-
 USING THE CONSOLE FOR DEBUGGING
 The console is the primary debugging tool for simulation failures. When a simulation fails with a convergence error, the console typically shows:
 - Which node or branch ngspice was solving when it gave up
