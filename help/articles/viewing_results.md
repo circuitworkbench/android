@@ -1,22 +1,18 @@
-After a successful simulation, results are displayed in a panel above the schematic.
+After a successful simulation, results are displayed either on the canvas or in a separate waveform activity.
 
 OPERATING POINT RESULTS
-OP results appear as a scrollable table with two sections:
-
-Node Voltages: Each row shows a node name and its DC voltage in volts.
-Branch Currents: Each row shows a source name and the current through it in amperes.
-Device Parameters: If you requested @device[param] vectors, they appear here with their values.
+OP results appear as overlays on the diagram canvas. Each result overlay is located near the associated component. 
+Results for default vectors have a green background. Custom vectors or device parameters have a purple background.
 
 All values are shown in scientific notation where appropriate.
 
-AC AND TRANSIENT RESULTS — THE WAVEFORM VIEWER
-AC and transient results are shown in the waveform viewer. Each requested output vector appears as a coloured curve.
+DC, AC AND TRANSIENT RESULTS — THE WAVEFORM VIEWER
+AC and transient results are shown in the waveform viewer. Each requested output vector appears as a colored curve.
 
 WAVEFORM VIEWER CONTROLS
-- Pinch to zoom in and out on the time or frequency axis
-- Drag to pan along the axis
-- Double-tap to reset zoom to fit all curves
-- Tap a curve to highlight it and see its label
+- Traces are categorized by voltage, current, power or other for transient and DC waveforms. For AC analysis, categories are magnitude and phase.
+- Tabs shown at the top of the viewer for each category type. The 'All' tab, shows waveforms for all categories. Switch to a tab to see only that subset of waveforms.
+- Labels are shown for each trace or curve. Tapping the label will toggle the trace visibility. Use this feature to view only certain traces.
 - The vertical axis auto-scales to fit the data range
 
 MULTIPLE CURVES
