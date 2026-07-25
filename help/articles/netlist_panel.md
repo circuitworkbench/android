@@ -20,7 +20,7 @@ The Netlist panel is a powerful debugging tool:
 - Identify floating nodes (nodes that appear only once in the netlist)
 
 NETLIST UPDATES
-The netlist updates automatically whenever you edit the schematic — change a value, add a component, draw a wire, or assign a model. The panel always shows the current state.
+The netlist updates automatically whenever you save the schematic or run a simulation.
 
 NETLIST PANEL VS ACTUAL RUN NETLIST
-The netlist panel shows the circuit netlist without the analysis command. The actual run netlist (sent to ngspice) also includes the analysis card (.tran 1u 10m, etc.) and a .save directive listing the requested output vectors. These additions are built by the simulation runner immediately before calling ngspice.
+Sometimes, the netlist panel shows the circuit netlist without the analysis command. The actual run netlist (sent to ngspice) also includes the analysis card (.tran 1u 10m, etc.) and a .save directive listing the requested output vectors. These additions are built by the simulation runner immediately before calling ngspice.
