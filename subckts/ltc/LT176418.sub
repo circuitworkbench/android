@@ -1,0 +1,139 @@
+.SUBCKT LT176418  1  2  3  5  8
+*
+*********************
+* power section
+*********************
+*
+* pass transistor
+QPWR 51 54 52 Q1
+RBASE 54  84  5.0E3
+*
+* current limiter with SOA protection
+VSENS  8 52 DC -0.05
+FCL1 0 60  VSENS  0.0165
+RSENS  68  0  1.0E3
+FSENS 0 68 VSENS  1.0E-3
+RCL1 60 0 10
+GCL0 0 60 POLY(2) 68 0 65 0 0 0 0 0 0 0 0 0 24.2E-5
+DCL1 60 61 DX
+VCL1 61 0 DC 0
+GCL1 0 63  POLY(1) 8  1  -5.4E-3  1.0E-3
+RCL2  0 63 1.0E3
+DCL2 63 64 DX
+RCL3 64  0 50E3
+GCL2 0 65 POLY(1) 64  0  0 0 1.0E-4
+RCL4 65  0 1.0E3
+DCL3 65 66 DX
+VCL2 66 0 DC 16.7
+FCL2  90 3 VCL1 1.0
+*
+* temperature dependent dropout voltage
+RDROP 51 55  RVD  0.005  
+*
+* quiescent current 
+GQC  8  3  80  3  3.3E-4
+GQCP  8  3  54  84  1.05E-2
+*
+* load dependent ground pin current
+GGPC1 8 3 POLY(3)  68  0  42  0  46  3  0  0  -4.02E-7  0  1.1E-2  0  0  0  0  0  0  0  -3.1E-4
+GGPC2  3  45 POLY(1) 8  2  0.0E-3  1.0E-3
+RGPC1 45 3 1.0E3
+DGPC1 45 46 DX
+RGPC2 46 3 1.0E5
+*
+* reverse input  protection
+ERVP1  40 0 8 3 1.0
+DRVP1 40 41 DX
+RRVP1 41 42 1.0E3
+DRVP2 42 0 DX
+RRVP2 42 0 1.0E4
+*
+* reverse input current
+DRVP3 43 8 DX
+RRVP3 43 3 1.9E5
+*
+* reverse output protection
+SROP1  55  1   1  8  SROP1
+*
+********************
+* error amplifier
+********************
+*
+RF  2  80   983.3
+RG  80  3  2.016E3
+*
+GEA1 3 81  80  90  0.9
+REA1 81 3 1.0E4
+CP1 81  82 1.0E-3
+RP1  82 3  360
+
+CFEED 84 88 1.5E-10
+RFEED 88 90 5.0E1
+
+GEA2  3  84  81  3  1.0E-4
+REA2  84  3  1.0E4
+EEAP  85 3  41 0 1.0
+DEAP 84 85 DX
+DEAN 86 84 DX
+VEAN 86 3 DC 1.4
+*
+**************************** 
+* voltage reference
+****************************
+*
+* temperature dependent 1.21V reference
+IREF1 3 90 DC 1.2094E-3
+RREF1 90 3  RVR 1.0E3 
+FLOAD 90 3  VSENS  6.94E-7
+*
+**************************** 
+* noise voltage 
+****************************
+IR5 0 601 DC 1
+IR6 0 602 DC 1
+DR5 601 0 DRI
+DR6 602 0 DRI
+GR3 90  3  601 602 1.98
+*
+***************************
+* shutdown section
+***************************
+*
+* shdn bias current
+GSB 3 70 POLY(2) 42 0 5 3 0 0 0 0 1.33E-3
+RSB 70 3 1.0E3
+DSB 3 70 DIC 
+GSHDN 5 3 70 3 5.58E-7
+*
+* schmitt trigger, trip points 0.75V / 0.9V
+GSD1 3 71 72  5 1.0E-1
+RSD1 71 3 1.0E4
+CSD1 71 3 2.2E-9
+DSDP2 71 73 DTT
+VSDP2 73 3 DC 1.8
+DSDN2 74 71 DTT
+VSDN2 74 3 DC -1.8
+GTV1 3 72 POLY(1)  71  3  8.24E-4   2.98E-5
+RTV1 72 3 1.0E3
+SSHDN  90  3   71  3  SHDN
+*
+***********************
+* models used
+***********************
+.MODEL DX D IS=8.2592e-016  RS=0 XTI=1 CJO=0 IBV=1.0E-10 TT=0
+.MODEL DIC D IS=8.0000E-013 BV=5.0 RS=0 XTI=0
+.MODEL DAC D IS=8.0000E-013 BV=6.3 RS=0 XTI=0
+.MODEL DTT D IS=8.0000E-016  RS=0 XTI=1 IBV=1.0E-10 TT=8.3E-6
+.MODEL DRI D (IS=8.2592e-016 KF=3.2074e-019 RS=0 XTI=1 CJO=0 IBV=1.0E-10 TT=0)
+*
+.MODEL RVD RES (TC1=48.8E-3)
+.MODEL RVR RES (TC1=-8.2E-5)
+.MODEL REA RES (TC1=2.5E-3)
+*
+.MODEL SROP1  VSWITCH (RON=0.001  ROFF=1.0E8  VON=0.0  VOFF=0.1)
+.MODEL SHDN  VSWITCH (RON=0.01  ROFF=1.0E8  VON=01.0   VOFF=-1.0)
+*
+.MODEL Q1 PNP IS=1.0E-9  BF=12500 XTI=0 NF=1.0
+************************
+*
+.ENDS LT176418

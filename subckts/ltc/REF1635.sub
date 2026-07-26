@@ -1,0 +1,41 @@
+.SUBCKT REF1635    1 4 7 8
+*
+* 200 mV reference with temperature drift
+*
+IREF 4 10 1.0E-3
+RREF 10 4 200 TC=3.3E-5
+*
+* reference amp, poles at 8Hz / 500KHz
+*
+CIN 8 4 3.0E-12
+IBIAS 8 4 DC 3.5E-9
+GIN 4 11 10 8 1.0E-5
+RP1 11 4 1.0E5
+CP1 11 4 1.98E-7
+GP2 4 12 11 4 1.0E-5
+RP2 12 4 1.0E5
+CP2 12 4 3.2E-12
+GOUT 4 22 12 4 900
+ROUT1 22 4 100
+ROUT2 22 1 100
+*
+* voltage limiter to Vdd-0.8V, Vss + 0.02V
+*
+DLP 22 23 DX
+ELP 23 4 POLY(1) 7 4 -1.792 1.0
+DLN 24 22 DX
+VLN 24 4 DC 0.995
+*
+* current limiter to 2mA / 10uA source / sink
+*
+ECLP 91 0 22 1 5.4
+ECLN 92 0 22 1 7.5E2
+DCLP 91 90 DX
+DCLN 90 92 DX
+VLIM 90 89 DC 0
+RLIM 89 0 0.05
+FB 22 4 VLIM  10
+*
+.MODEL DX D IS=8.0000E-016 RS=0 XTI=0
+*
+.ENDS REF1635
