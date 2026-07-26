@@ -1,0 +1,14 @@
+.SUBCKT LT1328PD   A K L   
+DPD 0 K DPD
+R1 L A 1
+C1 L A 18N      ;SETTLING TAIL FOR 125NS PULSES
+GD K A L A 1.0
+ET 2 A L A 0.18
+R3 2 3 1
+C2 3 A 1U
+GT K A 3 A 1
+*
+.Model DPD D (  IS=8.5E-10      XTI=0.5                     ; Forward DC operation N=1.35                                      ; Forward DC operation IKF=390uA     TIKF=0                        ; Forward DC operation RS=150        TRS1=0.022    TRS2=5u         ; Series resistance CJO=72p       VJ=0.4        M=0.5           ; Junction Capacitance FC=0.5                                      ; Junction Capacitance TT=10pS                                     ; Transit Time EG=0.69                                     ; Bandgap Voltage ISR=100pA     NR=2                          ; Recombination Current BV=100        IBV=100uA       NBV=1         ; Reverse Breakdown IBVL=0        NBVL=1                        ; Reverse Breakdown
+*+  TVB1=0        TVB2=0                        ; Reverse Breakdown KF=0          AF=1   )                      ; Noise
+*
+.ENDS LT1328PD
