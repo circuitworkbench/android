@@ -1,70 +1,6110 @@
 {
   "version": 1,
-  "updated": "2026-06-24",
+  "updated": "2026-07-26",
   "subckts": [
     {
       "name": "LPFILTER",
       "category": "Filter",
       "description": "RC low-pass filter with buffered output",
-      "ports": ["IN", "OUT", "GND"],
-      "params": ["RVAL=1k", "CVAL=10n"],
+      "ports": [
+        "IN",
+        "OUT",
+        "GND"
+      ],
+      "params": [
+        "RVAL=1k",
+        "CVAL=10n"
+      ],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/filter/LPFILTER.sub"
     },
     {
       "name": "HPFILTER",
       "category": "Filter",
       "description": "RC high-pass filter with buffered output",
-      "ports": ["IN", "OUT", "GND"],
-      "params": ["RVAL=1k", "CVAL=10n"],
+      "ports": [
+        "IN",
+        "OUT",
+        "GND"
+      ],
+      "params": [
+        "RVAL=1k",
+        "CVAL=10n"
+      ],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/filter/HPFILTER.sub"
     },
     {
       "name": "VDIVIDER",
       "category": "Passive",
       "description": "Resistive voltage divider",
-      "ports": ["IN", "OUT", "GND"],
-      "params": ["R1=10k", "R2=10k"],
+      "ports": [
+        "IN",
+        "OUT",
+        "GND"
+      ],
+      "params": [
+        "R1=10k",
+        "R2=10k"
+      ],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/passive/VDIVIDER.sub"
     },
     {
       "name": "DEBOUNCE",
       "category": "Passive",
       "description": "RC switch debounce circuit",
-      "ports": ["IN", "OUT", "VCC", "GND"],
-      "params": ["RVAL=10k", "CVAL=100n"],
+      "ports": [
+        "IN",
+        "OUT",
+        "VCC",
+        "GND"
+      ],
+      "params": [
+        "RVAL=10k",
+        "CVAL=100n"
+      ],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/passive/DEBOUNCE.sub"
     },
     {
       "name": "NMOSSW",
       "category": "Switch",
       "description": "NMOS low-side switch with gate resistor",
-      "ports": ["GATE", "DRAIN", "GND"],
-      "params": ["RG=100"],
+      "ports": [
+        "GATE",
+        "DRAIN",
+        "GND"
+      ],
+      "params": [
+        "RG=100"
+      ],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/switch/NMOSSW.sub"
     },
     {
       "name": "NPNSW",
       "category": "Switch",
       "description": "NPN BJT low-side switch",
-      "ports": ["BASE", "COLLECTOR", "GND"],
-      "params": ["RB=10k"],
+      "ports": [
+        "BASE",
+        "COLLECTOR",
+        "GND"
+      ],
+      "params": [
+        "RB=10k"
+      ],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/switch/NPNSW.sub"
     },
     {
       "name": "HALFWAVE",
       "category": "Rectifier",
       "description": "Half-wave rectifier with smoothing capacitor",
-      "ports": ["AC", "DC", "GND"],
-      "params": ["CVAL=100u"],
+      "ports": [
+        "AC",
+        "DC",
+        "GND"
+      ],
+      "params": [
+        "CVAL=100u"
+      ],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/rectifier/HALFWAVE.sub"
     },
     {
       "name": "FULLWAVE",
       "category": "Rectifier",
       "description": "Full-wave bridge rectifier with smoothing capacitor",
-      "ports": ["AC1", "AC2", "DC", "GND"],
-      "params": ["CVAL=100u"],
+      "ports": [
+        "AC1",
+        "AC2",
+        "DC",
+        "GND"
+      ],
+      "params": [
+        "CVAL=100u"
+      ],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/rectifier/FULLWAVE.sub"
+    },
+    {
+      "name": "LT1001",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1001.sub"
+    },
+    {
+      "name": "LT1001A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1001A.sub"
+    },
+    {
+      "name": "LT1001S8",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1001S8.sub"
+    },
+    {
+      "name": "LT1002",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1002.sub"
+    },
+    {
+      "name": "LT1002A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1002A.sub"
+    },
+    {
+      "name": "LT1006",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1006.sub"
+    },
+    {
+      "name": "LT1006A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1006A.sub"
+    },
+    {
+      "name": "LT1006S8",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1006S8.sub"
+    },
+    {
+      "name": "LT1007",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1007.sub"
+    },
+    {
+      "name": "LT1007A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1007A.sub"
+    },
+    {
+      "name": "LT1007CS",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1007CS.sub"
+    },
+    {
+      "name": "LT1008",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1008.sub"
+    },
+    {
+      "name": "LT1010",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1010.sub"
+    },
+    {
+      "name": "MD1010",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/MD1010.sub"
+    },
+    {
+      "name": "LT1012",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1012.sub"
+    },
+    {
+      "name": "LT1012A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1012A.sub"
+    },
+    {
+      "name": "LT1012D",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1012D.sub"
+    },
+    {
+      "name": "LT1012S8",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1012S8.sub"
+    },
+    {
+      "name": "LT1013",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1013.sub"
+    },
+    {
+      "name": "LT1013A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1013A.sub"
+    },
+    {
+      "name": "LT1013D",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1013D.sub"
+    },
+    {
+      "name": "LT1014",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1014.sub"
+    },
+    {
+      "name": "LT1014A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1014A.sub"
+    },
+    {
+      "name": "LT1014D",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1014D.sub"
+    },
+    {
+      "name": "LT1016",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1016.sub"
+    },
+    {
+      "name": "COMP1016",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "102",
+        "200",
+        "300",
+        "400",
+        "500"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/COMP1016.sub"
+    },
+    {
+      "name": "LT1022",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1022.sub"
+    },
+    {
+      "name": "LT1022A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1022A.sub"
+    },
+    {
+      "name": "LT1024",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1024.sub"
+    },
+    {
+      "name": "LT1024A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1024A.sub"
+    },
+    {
+      "name": "LT1028",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1028.sub"
+    },
+    {
+      "name": "LT1028A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1028A.sub"
+    },
+    {
+      "name": "LT1028CS",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1028CS.sub"
+    },
+    {
+      "name": "LT1028N",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1028N.sub"
+    },
+    {
+      "name": "MD1028",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/MD1028.sub"
+    },
+    {
+      "name": "LT1037",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1037.sub"
+    },
+    {
+      "name": "LT1037A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1037A.sub"
+    },
+    {
+      "name": "LT1037CS",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1037CS.sub"
+    },
+    {
+      "name": "LTC1043",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (9-pin)",
+      "ports": [
+        "7",
+        "8",
+        "11",
+        "13",
+        "14",
+        "12",
+        "16",
+        "4",
+        "17"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1043.sub"
+    },
+    {
+      "name": "X1LTC1043",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (9-pin)",
+      "ports": [
+        "1",
+        "2",
+        "25",
+        "14",
+        "15",
+        ";NESTED",
+        "SUBCIRCUIT--DO",
+        "NOT",
+        "CALL"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/X1LTC1043.sub"
+    },
+    {
+      "name": "LTC1047",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1047.sub"
+    },
+    {
+      "name": "LTC1049",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1049.sub"
+    },
+    {
+      "name": "LTC1050",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1050.sub"
+    },
+    {
+      "name": "LTC1050A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1050A.sub"
+    },
+    {
+      "name": "LTC1051",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1051.sub"
+    },
+    {
+      "name": "LTC1051A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1051A.sub"
+    },
+    {
+      "name": "LTC1052",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1052.sub"
+    },
+    {
+      "name": "LTC1052CS",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1052CS.sub"
+    },
+    {
+      "name": "LTC1053",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1053.sub"
+    },
+    {
+      "name": "LT1055",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1055.sub"
+    },
+    {
+      "name": "LT1055A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1055A.sub"
+    },
+    {
+      "name": "LT1055S8",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1055S8.sub"
+    },
+    {
+      "name": "LT1056",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1056.sub"
+    },
+    {
+      "name": "LT1056A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1056A.sub"
+    },
+    {
+      "name": "LT1056S8",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1056S8.sub"
+    },
+    {
+      "name": "LT1057",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1057.sub"
+    },
+    {
+      "name": "LT1057A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1057A.sub"
+    },
+    {
+      "name": "LT1057S",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1057S.sub"
+    },
+    {
+      "name": "LT1058",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1058.sub"
+    },
+    {
+      "name": "LT1058A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1058A.sub"
+    },
+    {
+      "name": "LT1077",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1077.sub"
+    },
+    {
+      "name": "LT1077A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1077A.sub"
+    },
+    {
+      "name": "LT1078",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1078.sub"
+    },
+    {
+      "name": "LT1078A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1078A.sub"
+    },
+    {
+      "name": "LT1079",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1079.sub"
+    },
+    {
+      "name": "LT1079A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1079A.sub"
+    },
+    {
+      "name": "LT1083",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (3-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1083.sub"
+    },
+    {
+      "name": "LT1084",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (3-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1084.sub"
+    },
+    {
+      "name": "LT1085",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (3-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1085.sub"
+    },
+    {
+      "name": "LT1097",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1097.sub"
+    },
+    {
+      "name": "LTC1100",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1100.sub"
+    },
+    {
+      "name": "LTC1100A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1100A.sub"
+    },
+    {
+      "name": "LT1101",
+      "category": "LTC",
+      "description": "Instrumentation amplifier \u2014 Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1101.sub"
+    },
+    {
+      "name": "LT1101A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1101A.sub"
+    },
+    {
+      "name": "LT1102",
+      "category": "LTC",
+      "description": "Instrumentation amplifier \u2014 Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1102.sub"
+    },
+    {
+      "name": "LT1102A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1102A.sub"
+    },
+    {
+      "name": "LT1112",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1112.sub"
+    },
+    {
+      "name": "LT1113",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1113.sub"
+    },
+    {
+      "name": "LT1114",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1114.sub"
+    },
+    {
+      "name": "LT1115",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1115.sub"
+    },
+    {
+      "name": "LT1116",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1116.sub"
+    },
+    {
+      "name": "COMP1116",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "102",
+        "200",
+        "300",
+        "400",
+        "500"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/COMP1116.sub"
+    },
+    {
+      "name": "LT1121",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1121.sub"
+    },
+    {
+      "name": "MD1121",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/MD1121.sub"
+    },
+    {
+      "name": "LT1122",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1122.sub"
+    },
+    {
+      "name": "LT1124",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1124.sub"
+    },
+    {
+      "name": "LT1125",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1125.sub"
+    },
+    {
+      "name": "LT1126",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1126.sub"
+    },
+    {
+      "name": "LT1127",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1127.sub"
+    },
+    {
+      "name": "LT1128",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1128.sub"
+    },
+    {
+      "name": "LT1129",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1129.sub"
+    },
+    {
+      "name": "LTC1150",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1150.sub"
+    },
+    {
+      "name": "LTC1151",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1151.sub"
+    },
+    {
+      "name": "LTC1152",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1152.sub"
+    },
+    {
+      "name": "LT1167",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1167.sub"
+    },
+    {
+      "name": "LT1167_IN1",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1167_IN1.sub"
+    },
+    {
+      "name": "LT1167_IN2",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1167_IN2.sub"
+    },
+    {
+      "name": "LT1167_OUT",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1167_OUT.sub"
+    },
+    {
+      "name": "LT1168",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1168.sub"
+    },
+    {
+      "name": "LT1168_IN",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1168_IN.sub"
+    },
+    {
+      "name": "LT1168_OUT",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1168_OUT.sub"
+    },
+    {
+      "name": "LT1169",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1169.sub"
+    },
+    {
+      "name": "LT1178",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1178.sub"
+    },
+    {
+      "name": "LT1178A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1178A.sub"
+    },
+    {
+      "name": "LT1179",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1179.sub"
+    },
+    {
+      "name": "LT1179A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1179A.sub"
+    },
+    {
+      "name": "LT1187",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "REF",
+        "FB"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1187.sub"
+    },
+    {
+      "name": "LT1189",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "REF",
+        "FB"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1189.sub"
+    },
+    {
+      "name": "LT1190",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1190.sub"
+    },
+    {
+      "name": "LT1191",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1191.sub"
+    },
+    {
+      "name": "LT1192",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1192.sub"
+    },
+    {
+      "name": "LT1193",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "REF",
+        "FB"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1193.sub"
+    },
+    {
+      "name": "LT1194",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "REF",
+        "VOS1",
+        "VOS2"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1194.sub"
+    },
+    {
+      "name": "LT1195",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1195.sub"
+    },
+    {
+      "name": "LT1206",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1206.sub"
+    },
+    {
+      "name": "LT1207",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1207.sub"
+    },
+    {
+      "name": "LT1208",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1208.sub"
+    },
+    {
+      "name": "LT1209",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1209.sub"
+    },
+    {
+      "name": "LT1210",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1210.sub"
+    },
+    {
+      "name": "LT1211",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1211.sub"
+    },
+    {
+      "name": "LT1212",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1212.sub"
+    },
+    {
+      "name": "LT1213",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1213.sub"
+    },
+    {
+      "name": "LT1214",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1214.sub"
+    },
+    {
+      "name": "LT1215",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1215.sub"
+    },
+    {
+      "name": "LT1216",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1216.sub"
+    },
+    {
+      "name": "LT1217",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1217.sub"
+    },
+    {
+      "name": "LT1218",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1218.sub"
+    },
+    {
+      "name": "LT1219",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1219.sub"
+    },
+    {
+      "name": "LT1220",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1220.sub"
+    },
+    {
+      "name": "LT1221",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1221.sub"
+    },
+    {
+      "name": "LT1222",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1222.sub"
+    },
+    {
+      "name": "LT1223",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1223.sub"
+    },
+    {
+      "name": "LT1224",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1224.sub"
+    },
+    {
+      "name": "LT1225",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1225.sub"
+    },
+    {
+      "name": "LT1226",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1226.sub"
+    },
+    {
+      "name": "LT1227",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1227.sub"
+    },
+    {
+      "name": "LT1228",
+      "category": "LTC",
+      "description": "Operational transconductance amplifier (OTA) / current feedback amplifier (CFA) \u2014 Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1228.sub"
+    },
+    {
+      "name": "LT1229",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1229.sub"
+    },
+    {
+      "name": "LT1230",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1230.sub"
+    },
+    {
+      "name": "LTC1250",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1250.sub"
+    },
+    {
+      "name": "LT1251",
+      "category": "LTC",
+      "description": "Video fader \u2014 Linear Technology SPICE macromodel (14-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1251.sub"
+    },
+    {
+      "name": "LT1252",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1252.sub"
+    },
+    {
+      "name": "LT1253",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1253.sub"
+    },
+    {
+      "name": "LT1254",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1254.sub"
+    },
+    {
+      "name": "LT1256",
+      "category": "LTC",
+      "description": "Video fader \u2014 Linear Technology SPICE macromodel (14-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1256.sub"
+    },
+    {
+      "name": "LT1259",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1259.sub"
+    },
+    {
+      "name": "LT1260",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1260.sub"
+    },
+    {
+      "name": "LT1328",
+      "category": "LTC",
+      "description": "Comparator \u2014 Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "IN",
+        "FILTER",
+        "FSW",
+        "GND",
+        "DATA",
+        "VCC",
+        "MODE",
+        "VBIAS"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1328.sub"
+    },
+    {
+      "name": "LT1328PD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (3-pin)",
+      "ports": [
+        "A",
+        "K",
+        "L"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1328PD.sub"
+    },
+    {
+      "name": "LT1351",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1351.sub"
+    },
+    {
+      "name": "LT1352",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1352.sub"
+    },
+    {
+      "name": "LT1353",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1353.sub"
+    },
+    {
+      "name": "LT1354",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1354.sub"
+    },
+    {
+      "name": "LT1355",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1355.sub"
+    },
+    {
+      "name": "LT1356",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1356.sub"
+    },
+    {
+      "name": "LT1357",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1357.sub"
+    },
+    {
+      "name": "LT1358",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1358.sub"
+    },
+    {
+      "name": "LT1359",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1359.sub"
+    },
+    {
+      "name": "LT1360",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1360.sub"
+    },
+    {
+      "name": "LT1361",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1361.sub"
+    },
+    {
+      "name": "LT1362",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1362.sub"
+    },
+    {
+      "name": "LT1363",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1363.sub"
+    },
+    {
+      "name": "LT1364",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1364.sub"
+    },
+    {
+      "name": "LT1365",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1365.sub"
+    },
+    {
+      "name": "LT1366",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1366.sub"
+    },
+    {
+      "name": "LT1367",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1367.sub"
+    },
+    {
+      "name": "LT1368",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1368.sub"
+    },
+    {
+      "name": "LT1369",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1369.sub"
+    },
+    {
+      "name": "LT1394",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1394.sub"
+    },
+    {
+      "name": "LT1394_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "102",
+        "200",
+        "300",
+        "400",
+        "600"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1394_MD.sub"
+    },
+    {
+      "name": "LT1395",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1395.sub"
+    },
+    {
+      "name": "LT1398",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "2",
+        "1",
+        "14",
+        "11",
+        "15",
+        "16"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1398.sub"
+    },
+    {
+      "name": "LT1398_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1398_MD.sub"
+    },
+    {
+      "name": "LT1399",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "2",
+        "1",
+        "14",
+        "11",
+        "15",
+        "16"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1399.sub"
+    },
+    {
+      "name": "LT1399_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1399_MD.sub"
+    },
+    {
+      "name": "LT1413",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1413.sub"
+    },
+    {
+      "name": "LT1413A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1413A.sub"
+    },
+    {
+      "name": "LT1431",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1431.sub"
+    },
+    {
+      "name": "LTC1440",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "200",
+        "300",
+        "101",
+        "400",
+        "420",
+        "350"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1440.sub"
+    },
+    {
+      "name": "LTC1441",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "7"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1441.sub"
+    },
+    {
+      "name": "LTC1441MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1441MD.sub"
+    },
+    {
+      "name": "LTC1442",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1442.sub"
+    },
+    {
+      "name": "COMP1442",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300",
+        "350",
+        "420"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/COMP1442.sub"
+    },
+    {
+      "name": "REF1442",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (2-pin)",
+      "ports": [
+        "420",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/REF1442.sub"
+    },
+    {
+      "name": "LTC1443",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "8",
+        "9",
+        "14"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1443.sub"
+    },
+    {
+      "name": "COMP1443",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300",
+        "400"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/COMP1443.sub"
+    },
+    {
+      "name": "REF1443",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (2-pin)",
+      "ports": [
+        "420",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/REF1443.sub"
+    },
+    {
+      "name": "LTC1444",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "8",
+        "9",
+        "14"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1444.sub"
+    },
+    {
+      "name": "COMP1444",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300",
+        "360"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/COMP1444.sub"
+    },
+    {
+      "name": "HYST1444",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "350",
+        "360",
+        "101",
+        "200",
+        "300",
+        "420"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/HYST1444.sub"
+    },
+    {
+      "name": "REF1444",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (2-pin)",
+      "ports": [
+        "420",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/REF1444.sub"
+    },
+    {
+      "name": "LTC1445",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "8",
+        "9",
+        "14"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1445.sub"
+    },
+    {
+      "name": "COMP1445",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300",
+        "360"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/COMP1445.sub"
+    },
+    {
+      "name": "HYST1445",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "350",
+        "360",
+        "101",
+        "200",
+        "300",
+        "420"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/HYST1445.sub"
+    },
+    {
+      "name": "REF1445",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (2-pin)",
+      "ports": [
+        "420",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/REF1445.sub"
+    },
+    {
+      "name": "LT1462",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1462.sub"
+    },
+    {
+      "name": "LT1463",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1463.sub"
+    },
+    {
+      "name": "LT1464",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1464.sub"
+    },
+    {
+      "name": "LT1465",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1465.sub"
+    },
+    {
+      "name": "LT1466",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1466.sub"
+    },
+    {
+      "name": "LT1466L",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1466L.sub"
+    },
+    {
+      "name": "LT1467",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1467.sub"
+    },
+    {
+      "name": "LT1467L",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1467L.sub"
+    },
+    {
+      "name": "LT1468",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1468.sub"
+    },
+    {
+      "name": "LT1468N",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1468N.sub"
+    },
+    {
+      "name": "LT1469",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1469.sub"
+    },
+    {
+      "name": "LT1490",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1490.sub"
+    },
+    {
+      "name": "LT1491",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1491.sub"
+    },
+    {
+      "name": "LT1492",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1492.sub"
+    },
+    {
+      "name": "LT1493",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1493.sub"
+    },
+    {
+      "name": "LT1495",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1495.sub"
+    },
+    {
+      "name": "LT1496",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1496.sub"
+    },
+    {
+      "name": "LT1497",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1497.sub"
+    },
+    {
+      "name": "LT1498",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1498.sub"
+    },
+    {
+      "name": "LT1499",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1499.sub"
+    },
+    {
+      "name": "LT1521",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1521.sub"
+    },
+    {
+      "name": "MD1521",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/MD1521.sub"
+    },
+    {
+      "name": "LT1529",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1529.sub"
+    },
+    {
+      "name": "LTC1540",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1540.sub"
+    },
+    {
+      "name": "COMP1540",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300",
+        "350",
+        "400",
+        "420"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/COMP1540.sub"
+    },
+    {
+      "name": "REF1540",
+      "category": "LTC",
+      "description": "Bandgap voltage reference \u2014 Linear Technology SPICE macromodel (2-pin)",
+      "ports": [
+        "420",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/REF1540.sub"
+    },
+    {
+      "name": "LTC1541",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1541.sub"
+    },
+    {
+      "name": "LTC1541_OP",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1541_OP.sub"
+    },
+    {
+      "name": "LTC1541_COMP",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1541_COMP.sub"
+    },
+    {
+      "name": "LTC1541_REF",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (3-pin)",
+      "ports": [
+        "420",
+        "200",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1541_REF.sub"
+    },
+    {
+      "name": "LTC1542",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1542.sub"
+    },
+    {
+      "name": "LTC1542_OP",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1542_OP.sub"
+    },
+    {
+      "name": "LTC1542_COMP",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC1542_COMP.sub"
+    },
+    {
+      "name": "LT1630",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "8",
+        "4",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1630.sub"
+    },
+    {
+      "name": "LT1630_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1630_MD.sub"
+    },
+    {
+      "name": "LT1631",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "4",
+        "11",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1631.sub"
+    },
+    {
+      "name": "LT1631_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1631_MD.sub"
+    },
+    {
+      "name": "LT1632",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "8",
+        "4",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1632.sub"
+    },
+    {
+      "name": "LT1632_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1632_MD.sub"
+    },
+    {
+      "name": "LT1633",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "4",
+        "11",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1633.sub"
+    },
+    {
+      "name": "LT1633_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1633_MD.sub"
+    },
+    {
+      "name": "LT1635",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1635.sub"
+    },
+    {
+      "name": "OP1635",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP1635.sub"
+    },
+    {
+      "name": "REF1635",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (4-pin)",
+      "ports": [
+        "1",
+        "4",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/REF1635.sub"
+    },
+    {
+      "name": "LT1636",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1636.sub"
+    },
+    {
+      "name": "LT1636_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1636_MD.sub"
+    },
+    {
+      "name": "LT1637",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1637.sub"
+    },
+    {
+      "name": "LT1637_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1637_MD.sub"
+    },
+    {
+      "name": "LT1638",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "8",
+        "4",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1638.sub"
+    },
+    {
+      "name": "LT1638_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1638_MD.sub"
+    },
+    {
+      "name": "LT1639",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "4",
+        "11",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1639.sub"
+    },
+    {
+      "name": "LT1639_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1639_MD.sub"
+    },
+    {
+      "name": "LT1671",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1671.sub"
+    },
+    {
+      "name": "LT1671_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "102",
+        "200",
+        "300",
+        "400",
+        "600"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1671_MD.sub"
+    },
+    {
+      "name": "LT1677",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1677.sub"
+    },
+    {
+      "name": "LT1720",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "8",
+        "5",
+        "7"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1720.sub"
+    },
+    {
+      "name": "LT1720_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "200",
+        "300"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1720_MD.sub"
+    },
+    {
+      "name": "LT1722",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1722.sub"
+    },
+    {
+      "name": "LT1722MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1722MD.sub"
+    },
+    {
+      "name": "LT1761BYP",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761BYP.sub"
+    },
+    {
+      "name": "LT1761_B",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761_B.sub"
+    },
+    {
+      "name": "LT1761SD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "5",
+        "4",
+        "3",
+        "2",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761SD.sub"
+    },
+    {
+      "name": "LT1761_S",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "5",
+        "4",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761_S.sub"
+    },
+    {
+      "name": "LT1761_18",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "5",
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761_18.sub"
+    },
+    {
+      "name": "LT176118",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176118.sub"
+    },
+    {
+      "name": "LT1761_2",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "5",
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761_2.sub"
+    },
+    {
+      "name": "LT176120",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176120.sub"
+    },
+    {
+      "name": "LT1761_25",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "5",
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761_25.sub"
+    },
+    {
+      "name": "LT176125",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176125.sub"
+    },
+    {
+      "name": "LT1761_3",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "5",
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761_3.sub"
+    },
+    {
+      "name": "LT176130",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176130.sub"
+    },
+    {
+      "name": "LT1761_33",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "5",
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761_33.sub"
+    },
+    {
+      "name": "LT176133",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176133.sub"
+    },
+    {
+      "name": "LT1761_5",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "5",
+        "4",
+        "2",
+        "3",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1761_5.sub"
+    },
+    {
+      "name": "LT176150",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176150.sub"
+    },
+    {
+      "name": "LT1762",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1762.sub"
+    },
+    {
+      "name": "LT1762_15",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1762_15.sub"
+    },
+    {
+      "name": "LT1762_18",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1762_18.sub"
+    },
+    {
+      "name": "LT1762_25",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1762_25.sub"
+    },
+    {
+      "name": "LT1762_3",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1762_3.sub"
+    },
+    {
+      "name": "LT1762_33",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1762_33.sub"
+    },
+    {
+      "name": "LT1762_5",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1762_5.sub"
+    },
+    {
+      "name": "LT1763",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1763.sub"
+    },
+    {
+      "name": "LT1763_15",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1763_15.sub"
+    },
+    {
+      "name": "LT1763_18",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1763_18.sub"
+    },
+    {
+      "name": "LT1763_25",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1763_25.sub"
+    },
+    {
+      "name": "LT1763_3",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1763_3.sub"
+    },
+    {
+      "name": "LT1763_33",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1763_33.sub"
+    },
+    {
+      "name": "LT1763_5",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1763_5.sub"
+    },
+    {
+      "name": "LT1764",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "4",
+        "5",
+        "3",
+        "1",
+        "2"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1764.sub"
+    },
+    {
+      "name": "LT1764MD",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1764MD.sub"
+    },
+    {
+      "name": "LT1764_15",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "4",
+        "5",
+        "3",
+        "1",
+        "2"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1764_15.sub"
+    },
+    {
+      "name": "LT176415",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176415.sub"
+    },
+    {
+      "name": "LT1764_18",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "4",
+        "5",
+        "3",
+        "1",
+        "2"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1764_18.sub"
+    },
+    {
+      "name": "LT176418",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176418.sub"
+    },
+    {
+      "name": "LT1764_25",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "4",
+        "5",
+        "3",
+        "1",
+        "2"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1764_25.sub"
+    },
+    {
+      "name": "LT176425",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176425.sub"
+    },
+    {
+      "name": "LT1764_33",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "4",
+        "5",
+        "3",
+        "1",
+        "2"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1764_33.sub"
+    },
+    {
+      "name": "LT176433",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT176433.sub"
+    },
+    {
+      "name": "LT1782",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "4",
+        "6",
+        "2",
+        "1",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1782.sub"
+    },
+    {
+      "name": "LT1782_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1782_MD.sub"
+    },
+    {
+      "name": "LT1783",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "4",
+        "6",
+        "2",
+        "1",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1783.sub"
+    },
+    {
+      "name": "LT1783_MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1783_MD.sub"
+    },
+    {
+      "name": "LT1787",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1787.sub"
+    },
+    {
+      "name": "LT1792",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1792.sub"
+    },
+    {
+      "name": "LT1792MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1792MD.sub"
+    },
+    {
+      "name": "LT1793",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1793.sub"
+    },
+    {
+      "name": "LT1793MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1793MD.sub"
+    },
+    {
+      "name": "LT1795",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "120",
+        "130"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1795.sub"
+    },
+    {
+      "name": "LT1797",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "4",
+        "5",
+        "2",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1797.sub"
+    },
+    {
+      "name": "LT1797MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1797MD.sub"
+    },
+    {
+      "name": "LT1800",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1800.sub"
+    },
+    {
+      "name": "LT1800MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1800MD.sub"
+    },
+    {
+      "name": "LT1806",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1806.sub"
+    },
+    {
+      "name": "LT1806MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1806MD.sub"
+    },
+    {
+      "name": "LT1807",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "8",
+        "4",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1807.sub"
+    },
+    {
+      "name": "LT1807MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1807MD.sub"
+    },
+    {
+      "name": "LT1809",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1809.sub"
+    },
+    {
+      "name": "LT1809MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1809MD.sub"
+    },
+    {
+      "name": "LT1810",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "8",
+        "4",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1810.sub"
+    },
+    {
+      "name": "LT1810MD",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1810MD.sub"
+    },
+    {
+      "name": "LT1812",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1812.sub"
+    },
+    {
+      "name": "LT1813",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1813.sub"
+    },
+    {
+      "name": "LT1881",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1881.sub"
+    },
+    {
+      "name": "LT1884",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1884.sub"
+    },
+    {
+      "name": "LT1886",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1886.sub"
+    },
+    {
+      "name": "LT1920",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (8-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1920.sub"
+    },
+    {
+      "name": "LT1920_IN1",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1920_IN1.sub"
+    },
+    {
+      "name": "LT1920_IN2",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1920_IN2.sub"
+    },
+    {
+      "name": "LT1920_OUT",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1920_OUT.sub"
+    },
+    {
+      "name": "LT1962",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1962.sub"
+    },
+    {
+      "name": "LT1962_15",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1962_15.sub"
+    },
+    {
+      "name": "LT1962_18",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1962_18.sub"
+    },
+    {
+      "name": "LT1962_25",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1962_25.sub"
+    },
+    {
+      "name": "LT1962_3",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1962_3.sub"
+    },
+    {
+      "name": "LT1962_33",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1962_33.sub"
+    },
+    {
+      "name": "LT1962_5",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1962_5.sub"
+    },
+    {
+      "name": "LT1963",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1963.sub"
+    },
+    {
+      "name": "LT1963_15",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1963_15.sub"
+    },
+    {
+      "name": "LT1963_18",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1963_18.sub"
+    },
+    {
+      "name": "LT1963_25",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1963_25.sub"
+    },
+    {
+      "name": "LT1963_33",
+      "category": "LTC",
+      "description": "Voltage reference \u2014 Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT1963_33.sub"
+    },
+    {
+      "name": "LTC2050",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (6-pin)",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC2050.sub"
+    },
+    {
+      "name": "LT2078",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT2078.sub"
+    },
+    {
+      "name": "LT2078A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT2078A.sub"
+    },
+    {
+      "name": "LT2079",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT2079.sub"
+    },
+    {
+      "name": "LT2079A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT2079A.sub"
+    },
+    {
+      "name": "LT2178",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT2178.sub"
+    },
+    {
+      "name": "LT2178A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT2178A.sub"
+    },
+    {
+      "name": "LT2179",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT2179.sub"
+    },
+    {
+      "name": "LT2179A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT2179A.sub"
+    },
+    {
+      "name": "LTC7652",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LTC7652.sub"
+    },
+    {
+      "name": "LM108A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM108A.sub"
+    },
+    {
+      "name": "LH2108A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LH2108A.sub"
+    },
+    {
+      "name": "LM308",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM308.sub"
+    },
+    {
+      "name": "LM308A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM308A.sub"
+    },
+    {
+      "name": "LM108",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM108.sub"
+    },
+    {
+      "name": "LH2108",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LH2108.sub"
+    },
+    {
+      "name": "LM101A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM101A.sub"
+    },
+    {
+      "name": "LM301A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM301A.sub"
+    },
+    {
+      "name": "LM10C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (7-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6",
+        "1",
+        "8"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM10C.sub"
+    },
+    {
+      "name": "LM318",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM318.sub"
+    },
+    {
+      "name": "LM318S8",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM318S8.sub"
+    },
+    {
+      "name": "LT118A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT118A.sub"
+    },
+    {
+      "name": "LT318A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LT318A.sub"
+    },
+    {
+      "name": "LM307",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM307.sub"
+    },
+    {
+      "name": "LM118",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM118.sub"
+    },
+    {
+      "name": "LM107",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LM107.sub"
+    },
+    {
+      "name": "LF412A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF412A.sub"
+    },
+    {
+      "name": "LF412",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF412.sub"
+    },
+    {
+      "name": "LF156A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF156A.sub"
+    },
+    {
+      "name": "LF156",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF156.sub"
+    },
+    {
+      "name": "LF356A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF356A.sub"
+    },
+    {
+      "name": "LF356",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF356.sub"
+    },
+    {
+      "name": "LF155A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF155A.sub"
+    },
+    {
+      "name": "LF155",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF155.sub"
+    },
+    {
+      "name": "LF355A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF355A.sub"
+    },
+    {
+      "name": "LF355",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/LF355.sub"
+    },
+    {
+      "name": "OP37A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP37A.sub"
+    },
+    {
+      "name": "OP37E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP37E.sub"
+    },
+    {
+      "name": "OP237A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP237A.sub"
+    },
+    {
+      "name": "OP237E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP237E.sub"
+    },
+    {
+      "name": "OP37C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP37C.sub"
+    },
+    {
+      "name": "OP37G",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP37G.sub"
+    },
+    {
+      "name": "OP237C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP237C.sub"
+    },
+    {
+      "name": "OP237G",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP237G.sub"
+    },
+    {
+      "name": "OP27C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP27C.sub"
+    },
+    {
+      "name": "OP27G",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP27G.sub"
+    },
+    {
+      "name": "OP227C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP227C.sub"
+    },
+    {
+      "name": "OP227G",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP227G.sub"
+    },
+    {
+      "name": "OP27A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP27A.sub"
+    },
+    {
+      "name": "OP27E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP27E.sub"
+    },
+    {
+      "name": "OP227A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP227A.sub"
+    },
+    {
+      "name": "OP227E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP227E.sub"
+    },
+    {
+      "name": "OP07C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP07C.sub"
+    },
+    {
+      "name": "OP07CS8",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP07CS8.sub"
+    },
+    {
+      "name": "OP07E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP07E.sub"
+    },
+    {
+      "name": "OP07A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP07A.sub"
+    },
+    {
+      "name": "OP05C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP05C.sub"
+    },
+    {
+      "name": "OP05E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP05E.sub"
+    },
+    {
+      "name": "OP05A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP05A.sub"
+    },
+    {
+      "name": "OP16B",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP16B.sub"
+    },
+    {
+      "name": "OP16F",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP16F.sub"
+    },
+    {
+      "name": "OP16A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP16A.sub"
+    },
+    {
+      "name": "OP16E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP16E.sub"
+    },
+    {
+      "name": "OP16C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP16C.sub"
+    },
+    {
+      "name": "OP16G",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP16G.sub"
+    },
+    {
+      "name": "OP15B",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP15B.sub"
+    },
+    {
+      "name": "OP15F",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP15F.sub"
+    },
+    {
+      "name": "OP15A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP15A.sub"
+    },
+    {
+      "name": "OP15E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP15E.sub"
+    },
+    {
+      "name": "OP15C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP15C.sub"
+    },
+    {
+      "name": "OP15G",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP15G.sub"
+    },
+    {
+      "name": "OP215A",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP215A.sub"
+    },
+    {
+      "name": "OP215E",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP215E.sub"
+    },
+    {
+      "name": "OP215C",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP215C.sub"
+    },
+    {
+      "name": "OP215G",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP215G.sub"
+    },
+    {
+      "name": "OP97",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP97.sub"
+    },
+    {
+      "name": "OP07",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP07.sub"
+    },
+    {
+      "name": "OP05",
+      "category": "LTC",
+      "description": "Linear Technology SPICE macromodel (5-pin)",
+      "ports": [
+        "3",
+        "2",
+        "7",
+        "4",
+        "6"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP05.sub"
     }
   ]
 }
