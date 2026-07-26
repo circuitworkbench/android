@@ -1,0 +1,57 @@
+.SUBCKT LT1083     1   2   3 
+*
+* power section
+* power transistor 
+QPWR 41 42 43  Q1
+RBASE 42 43 1.0E3
+RDROP 43  2  0.03  TC=-6.0E-3
+VCURR 3  41  DC 0
+QDRV 42 44  41 Q2
+RDRV 50 44 1.0E5
+* current limit with SOA protection
+* 9.5A limiter
+HCL1 15 0 VCURR 0.0875
+DCL1 15 16 DX
+VCL1 16 21 DC 0
+FCL1 0 50 VCL1 5.0E2
+* SOA protection
+* P0 of GCL1defines threshold1 / knee voltage1
+* RCL2 defines decay factor
+GCL1 0 17 POLY(1) 3 2 -6.0E-3 1.0E-3
+RCL1 0 17 1.0E3
+DCL2 17 18 DX
+RCL2 18 0 50E3
+*  square characteristic
+* VCL2 defines lower limit resp. second knee voltage
+GCL2 0 19 POLY(1) 18 0  0 0 1.0E-4
+RCL3 19 0 1.0E3
+DCL3 19 20 DX
+VCL2 20 0 DC 17.8
+ECL1 21 0 19 0 -4.0E-2
+* error amplifier
+* amplifier with 80 dB gain
+GEA2 0 50  2  7   32.0
+REA2 50 0 1.0E3
+DEAP 50 51 DX
+EEAP 51 0 POLY(1) 3 0 -0.9 1.0
+DEAN 52 50 DX
+VEAN 52 0 DC 0.9
+* feedback for transient response
+RF 50 55  10
+CF 55 7  14.4E-11
+* adjust pin current
+GADJ1 0 8 2 1 44.0E-6
+RADJ 8 0 1.0E6 TC=0.003
+GADJ2 3 1 8 0 -1.0E-6
+* voltage reference (1.250V)
+* 1.250V reference
+* no temperature drift required as curve swings around 1.25V
+IREF1  1  7   DC 1.250E-3
+RREF1 7  1  1.0E3 
+* load regulation (Iload: 10mA -> 7.5A / -60 mV at 10V output)
+FLOAD 7 1  VCURR 0.95E-6
+* models used
+.MODEL DX D IS=8.0000E-016 RS=0 XTI=0
+.MODEL Q1 NPN IS=1.0E-14 BF=450 RC=0 RE=0 XTI=0 
+.MODEL Q2 PNP IS=1.0E-16 BF=1250 RC=0 RE=0 XTI=0 
+.ENDS LT1083
