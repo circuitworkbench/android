@@ -6105,6 +6105,2564 @@
       ],
       "params": [],
       "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/ltc/OP05.sub"
-    }
+    },
+    {
+      "name": "MAX497",
+      "category": "Maxim",
+      "description": "275MHz, Quad Buffers, Av=+2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "1000",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX497.sub"
+    },
+    {
+      "name": "MAX498",
+      "category": "Maxim",
+      "description": "Quad, 250MHz -3dB BW, Gain=+2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "1000",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX498.sub"
+    },
+    {
+      "name": "MAX499",
+      "category": "Maxim",
+      "description": "Triple, 250MHz -3dB BW, Gain=+2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "1000",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX499.sub"
+    },
+    {
+      "name": "MAX402",
+      "category": "Maxim",
+      "description": "2MHz GBW, 75uA Idd, Av=1 stable, 7V/uS slew \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX402.sub"
+    },
+    {
+      "name": "MAX403",
+      "category": "Maxim",
+      "description": "10MHz GBW, 375uA Idd, Av=1 stable, 40V/uS slew \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX403.sub"
+    },
+    {
+      "name": "MAX438",
+      "category": "Maxim",
+      "description": "6MHz GBW, 75uA Idd, Av>=5 min., 10V/uS slew \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX438.sub"
+    },
+    {
+      "name": "MAX439",
+      "category": "Maxim",
+      "description": "25MHz GBW, 375uA Idd, Av>=5 min., 48V/uS slew \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX439.sub"
+    },
+    {
+      "name": "MAX406Ac",
+      "category": "Maxim",
+      "description": "comp.(AV=1) 8kHz GBW, 0.25mV VOS (Maxim MAX406A) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX406Ac.sub"
+    },
+    {
+      "name": "MAX406Bc",
+      "category": "Maxim",
+      "description": "comp.(AV=1) 8kHz GBW, 0.75mV VOS (Maxim MAX406B) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX406Bc.sub"
+    },
+    {
+      "name": "MAX406Ad",
+      "category": "Maxim",
+      "description": "decomp.(AV=2 min) 40kHz, 0.25mV VOS (Maxim MAX406A) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX406Ad.sub"
+    },
+    {
+      "name": "MAX406Bd",
+      "category": "Maxim",
+      "description": "decomp.(AV=2 min) 40kHz GBW, 0.75mV (Maxim MAX406B) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX406Bd.sub"
+    },
+    {
+      "name": "MAX407",
+      "category": "Maxim",
+      "description": "DUAL, UNITY-GAIN STABLE, 1mV VOS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX407.sub"
+    },
+    {
+      "name": "MAX409A",
+      "category": "Maxim",
+      "description": "AV=10 min., 0.5mV VOS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX409A.sub"
+    },
+    {
+      "name": "MAX409B",
+      "category": "Maxim",
+      "description": "AV=10 min., 2.0mV VOS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX409B.sub"
+    },
+    {
+      "name": "MAX417",
+      "category": "Maxim",
+      "description": "DUAL, AV=10 min., 3.0mV VOS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX417.sub"
+    },
+    {
+      "name": "MAX418",
+      "category": "Maxim",
+      "description": "QUAD, UNITY-GAIN STABLE, 4.0mV VOS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX418.sub"
+    },
+    {
+      "name": "MAX419",
+      "category": "Maxim",
+      "description": "QUAD, AV=10 min., 4.0mV VOS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX419.sub"
+    },
+    {
+      "name": "MAX410",
+      "category": "Maxim",
+      "description": "SINGLE, 1.8nV/rt.Hz typ. \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX410.sub"
+    },
+    {
+      "name": "MAX410B",
+      "category": "Maxim",
+      "description": "SINGLE, 2.4nV/rt.Hz typ. \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX410B.sub"
+    },
+    {
+      "name": "MAX412",
+      "category": "Maxim",
+      "description": "DUAL, 1.8nV/rt.Hz typ. \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX412.sub"
+    },
+    {
+      "name": "MAX412B",
+      "category": "Maxim",
+      "description": "DUAL, 2.4nV/rt.Hz typ. \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX412B.sub"
+    },
+    {
+      "name": "MAX414",
+      "category": "Maxim",
+      "description": "QUAD, 1.8nV/rt.Hz typ. \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX414.sub"
+    },
+    {
+      "name": "MAX414B",
+      "category": "Maxim",
+      "description": "QUAD, 2.4nV/rt.Hz typ. \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX414B.sub"
+    },
+    {
+      "name": "MAX427",
+      "category": "Maxim",
+      "description": "Low-noise, 2.5nV/rt.Hz, 8MHz GBP \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX427.sub"
+    },
+    {
+      "name": "MAX437",
+      "category": "Maxim",
+      "description": "Low-noise, 60MHz GBP, Av=5 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX437.sub"
+    },
+    {
+      "name": "MAX435",
+      "category": "Maxim",
+      "description": "275MHz BW, 800V/uS SR, 300uV VOS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "9",
+        "29",
+        "14",
+        "34",
+        "99",
+        "50",
+        "16",
+        "36",
+        "51"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX435.sub"
+    },
+    {
+      "name": "MAX436",
+      "category": "Maxim",
+      "description": "200MHz BW, 850V/uS SR, 300uV VOS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "9",
+        "29",
+        "14",
+        "34",
+        "99",
+        "50",
+        "16",
+        "51"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX436.sub"
+    },
+    {
+      "name": "MAX473",
+      "category": "Maxim",
+      "description": "Single, unity-gain-stable,15V/uS SR \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX473.sub"
+    },
+    {
+      "name": "MAX474",
+      "category": "Maxim",
+      "description": "Dual, rail-to-rail output swing \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX474.sub"
+    },
+    {
+      "name": "MAX475",
+      "category": "Maxim",
+      "description": "Quad, unity-gain-stable, 10MHz GBP \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX475.sub"
+    },
+    {
+      "name": "MAX477",
+      "category": "Maxim",
+      "description": "300MHz High-Speed Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "1",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX477.sub"
+    },
+    {
+      "name": "MAX47815",
+      "category": "Maxim",
+      "description": "Dual, Micropower Op Amps, 15V Supply (Maxim MAX478) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX47815.sub"
+    },
+    {
+      "name": "MAX4785",
+      "category": "Maxim",
+      "description": "Dual, Micropower Op Amps, 5V Supply (Maxim MAX478) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4785.sub"
+    },
+    {
+      "name": "MAX4783",
+      "category": "Maxim",
+      "description": "Dual, Micropower Op Amps, 3V Supply (Maxim MAX478) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4783.sub"
+    },
+    {
+      "name": "MAX47915",
+      "category": "Maxim",
+      "description": "Quad, Micropower Op Amps, 15V Supply (Maxim MAX479) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX47915.sub"
+    },
+    {
+      "name": "MAX4795",
+      "category": "Maxim",
+      "description": "Quad, Micropower Op Amps, 5V Supply (Maxim MAX479) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4795.sub"
+    },
+    {
+      "name": "MAX4793",
+      "category": "Maxim",
+      "description": "Quad, Micropower Op Amps, 3V Supply (Maxim MAX479) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4793.sub"
+    },
+    {
+      "name": "MAX492",
+      "category": "Maxim",
+      "description": "Dual, unity-gain-stable, 500kHz GBP \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "111",
+        "112",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX492.sub"
+    },
+    {
+      "name": "MAX494",
+      "category": "Maxim",
+      "description": "Quad, 150uA IDD, 500kHz GBP \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "111",
+        "112",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX494.sub"
+    },
+    {
+      "name": "MAX495",
+      "category": "Maxim",
+      "description": "Single, 2.7V to 6V supply, 150uA IDD \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "111",
+        "112",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX495.sub"
+    },
+    {
+      "name": "MAX496",
+      "category": "Maxim",
+      "description": "375MHz, Quad Buffers, Av=+1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "1000",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX496.sub"
+    },
+    {
+      "name": "MAX976",
+      "category": "Maxim",
+      "description": "Dual, High Speed, 20nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX976.sub"
+    },
+    {
+      "name": "MAX978",
+      "category": "Maxim",
+      "description": "Quad, High Speed, 20nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX978.sub"
+    },
+    {
+      "name": "MAX998",
+      "category": "Maxim",
+      "description": "Single, High Speed, 20nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX998.sub"
+    },
+    {
+      "name": "MAX907",
+      "category": "Maxim",
+      "description": "Dual, int HYST, 40nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX907.sub"
+    },
+    {
+      "name": "MAX908",
+      "category": "Maxim",
+      "description": "Quad, int HYST, 40nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX908.sub"
+    },
+    {
+      "name": "MAX909",
+      "category": "Maxim",
+      "description": "Single, int HYST, 40nS delay, int latch \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "352",
+        "300",
+        "433",
+        "483"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX909.sub"
+    },
+    {
+      "name": "MAX912",
+      "category": "Maxim",
+      "description": "Dual, int HYST, 40nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "352",
+        "300",
+        "433",
+        "483"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX912.sub"
+    },
+    {
+      "name": "MAX913",
+      "category": "Maxim",
+      "description": "Single, int HYST, 40nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "352",
+        "300",
+        "433",
+        "483"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX913.sub"
+    },
+    {
+      "name": "MAX921",
+      "category": "Maxim",
+      "description": "Single, adj HYST, 12uS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "49",
+        "235",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX921.sub"
+    },
+    {
+      "name": "MAX922",
+      "category": "Maxim",
+      "description": "Dual Ultra Low-Power Comparators \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX922.sub"
+    },
+    {
+      "name": "MAX923",
+      "category": "Maxim",
+      "description": "Dual, adj HYST, 12uS delay, 1.182V REF \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "102",
+        "3",
+        "4",
+        "49",
+        "235",
+        "97",
+        "197"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX923.sub"
+    },
+    {
+      "name": "MAX924",
+      "category": "Maxim",
+      "description": "Quad, 12uS delay, int 1.182V REF \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX924.sub"
+    },
+    {
+      "name": "REF_MAX924",
+      "category": "Maxim",
+      "description": "Internal 1.182V bandgap reference sub-block used by MAX924 \u2014 not an independently useful Maxim part on its own",
+      "ports": [
+        "3",
+        "4",
+        "235"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/REF_MAX924.sub"
+    },
+    {
+      "name": "MAX931",
+      "category": "Maxim",
+      "description": "Single, adj HYST, 12uS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "49",
+        "235",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX931.sub"
+    },
+    {
+      "name": "MAX932",
+      "category": "Maxim",
+      "description": "Dual, adj HYST, 12uS delay, 1.182V REF \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "101",
+        "3",
+        "4",
+        "49",
+        "235",
+        "97",
+        "197"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX932.sub"
+    },
+    {
+      "name": "MAX933",
+      "category": "Maxim",
+      "description": "Dual, adj HYST, 12uS delay, 1.182V REF \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "102",
+        "3",
+        "4",
+        "49",
+        "235",
+        "97",
+        "197"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX933.sub"
+    },
+    {
+      "name": "MAX934",
+      "category": "Maxim",
+      "description": "Quad, 12uS delay, int 1.182V REF \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX934.sub"
+    },
+    {
+      "name": "REF_MAX934",
+      "category": "Maxim",
+      "description": "Internal 1.182V bandgap reference sub-block used by MAX934 \u2014 not an independently useful Maxim part on its own",
+      "ports": [
+        "3",
+        "4",
+        "235"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/REF_MAX934.sub"
+    },
+    {
+      "name": "MAX941",
+      "category": "Maxim",
+      "description": "Single, int HYST, 80nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX941.sub"
+    },
+    {
+      "name": "MAX942",
+      "category": "Maxim",
+      "description": "Dual, int HYST, 80nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX942.sub"
+    },
+    {
+      "name": "MAX944",
+      "category": "Maxim",
+      "description": "Quad, int HYST, 80nS \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX944.sub"
+    },
+    {
+      "name": "MAX951",
+      "category": "Maxim",
+      "description": "Ultra-Low-Power Op Amp + Comp + Ref \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "300",
+        "400",
+        "235",
+        "97",
+        "197"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX951.sub"
+    },
+    {
+      "name": "MAX952",
+      "category": "Maxim",
+      "description": "Ultra-Low-Power Op Amp + Comp + Ref \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "300",
+        "400",
+        "235",
+        "97",
+        "197"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX952.sub"
+    },
+    {
+      "name": "MAX953",
+      "category": "Maxim",
+      "description": "Ultra-Low-Power Op Amp + Comp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "102",
+        "300",
+        "400",
+        "97",
+        "197"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX953.sub"
+    },
+    {
+      "name": "MAX954",
+      "category": "Maxim",
+      "description": "Ultra-Low-Power Op Amp + Comp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "101",
+        "102",
+        "300",
+        "400",
+        "97",
+        "197"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX954.sub"
+    },
+    {
+      "name": "MAX961",
+      "category": "Maxim",
+      "description": "Single, int HYST, 7nS delay, latch \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "352",
+        "300",
+        "433",
+        "483"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX961.sub"
+    },
+    {
+      "name": "MAX962",
+      "category": "Maxim",
+      "description": "Dual, int HYST, 7nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "300",
+        "433",
+        "483"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX962.sub"
+    },
+    {
+      "name": "MAX965",
+      "category": "Maxim",
+      "description": "Single, With (1.235V) Internal Reference and Programmable Hysteresis \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "49",
+        "235",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX965.sub"
+    },
+    {
+      "name": "MAX966",
+      "category": "Maxim",
+      "description": "Dual, Without Internal Reference and Programmable Hysteresis \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX966.sub"
+    },
+    {
+      "name": "MAX969",
+      "category": "Maxim",
+      "description": "Quad, With (1.235V) Internal Reference and Programmable Hysteresis \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "49",
+        "235",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX969.sub"
+    },
+    {
+      "name": "MAX970",
+      "category": "Maxim",
+      "description": "Quad, Without Internal Reference and Programmable Hysteresis \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX970.sub"
+    },
+    {
+      "name": "MAX4158",
+      "category": "Maxim",
+      "description": "Single Amplifier 350MHz -3dB BW, Gain=+1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4158.sub"
+    },
+    {
+      "name": "MAX4159",
+      "category": "Maxim",
+      "description": "Single Amplifier 350MHz -3dB BW, Gain=+1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4159.sub"
+    },
+    {
+      "name": "MAX4258",
+      "category": "Maxim",
+      "description": "Single Amplifier 250MHz -3dB BW, Gain=+2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4258.sub"
+    },
+    {
+      "name": "MAX4259",
+      "category": "Maxim",
+      "description": "Single Amplifier 250MHz -3dB BW, Gain=+2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4259.sub"
+    },
+    {
+      "name": "MAX975LP",
+      "category": "Maxim",
+      "description": "Single, Low-Power, 5uA Supply Current \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX975LP.sub"
+    },
+    {
+      "name": "MAX975HS",
+      "category": "Maxim",
+      "description": "Single, High Speed, 28nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX975HS.sub"
+    },
+    {
+      "name": "MAX977LP",
+      "category": "Maxim",
+      "description": "Dual, Low-Power, 5uA Supply Current \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX977LP.sub"
+    },
+    {
+      "name": "MAX977HS",
+      "category": "Maxim",
+      "description": "Dual, High Speed, 28nS delay \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX977HS.sub"
+    },
+    {
+      "name": "MAX985",
+      "category": "Maxim",
+      "description": "Single, Push/Pull \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX985.sub"
+    },
+    {
+      "name": "MAX986",
+      "category": "Maxim",
+      "description": "Single, Open-Drain \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX986.sub"
+    },
+    {
+      "name": "MAX989",
+      "category": "Maxim",
+      "description": "Dual, Push/Pull \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX989.sub"
+    },
+    {
+      "name": "MAX990",
+      "category": "Maxim",
+      "description": "Dual, Open-Drain \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX990.sub"
+    },
+    {
+      "name": "MAX993",
+      "category": "Maxim",
+      "description": "Quad, Push/Pull \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX993.sub"
+    },
+    {
+      "name": "MAX994",
+      "category": "Maxim",
+      "description": "Quad, Open-Drain \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX994.sub"
+    },
+    {
+      "name": "MAX987",
+      "category": "Maxim",
+      "description": "Single, Push/Pull \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX987.sub"
+    },
+    {
+      "name": "MAX988",
+      "category": "Maxim",
+      "description": "Single, Open-Drain \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX988.sub"
+    },
+    {
+      "name": "MAX991",
+      "category": "Maxim",
+      "description": "Dual, Push/Pull \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX991.sub"
+    },
+    {
+      "name": "MAX992",
+      "category": "Maxim",
+      "description": "Dual, Open-Drain \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX992.sub"
+    },
+    {
+      "name": "MAX995",
+      "category": "Maxim",
+      "description": "Quad, Push/Pull \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX995.sub"
+    },
+    {
+      "name": "MAX996",
+      "category": "Maxim",
+      "description": "Quad, Open-Drain \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX996.sub"
+    },
+    {
+      "name": "MAX4100",
+      "category": "Maxim",
+      "description": "500MHz, Low-Power Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4100.sub"
+    },
+    {
+      "name": "MAX4101",
+      "category": "Maxim",
+      "description": "500MHz, Low-Power Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4101.sub"
+    },
+    {
+      "name": "MAX4104",
+      "category": "Maxim",
+      "description": "Single Op Amp (Minimum Stable Gain of 1) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4104.sub"
+    },
+    {
+      "name": "MAX4304",
+      "category": "Maxim",
+      "description": "Single Op Amp (Minimum Stable Gain of 2) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4304.sub"
+    },
+    {
+      "name": "MAX4105",
+      "category": "Maxim",
+      "description": "Single Op Amp (Minimum Stable Gain of 5) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4105.sub"
+    },
+    {
+      "name": "MAX4305",
+      "category": "Maxim",
+      "description": "Single Op Amp (Minimum Stable Gain of 10) \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4305.sub"
+    },
+    {
+      "name": "MAX4106",
+      "category": "Maxim",
+      "description": "350MHz, Ultra-Low-Noise Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4106.sub"
+    },
+    {
+      "name": "MAX4107",
+      "category": "Maxim",
+      "description": "300MHz, Ultra-Low-Noise Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4107.sub"
+    },
+    {
+      "name": "MAX4108",
+      "category": "Maxim",
+      "description": "400MHz, Ultra-Low-Distortion Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4108.sub"
+    },
+    {
+      "name": "MAX4109",
+      "category": "Maxim",
+      "description": "225MHz, Ultra-Low-Distortion Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4109.sub"
+    },
+    {
+      "name": "MAX4112",
+      "category": "Maxim",
+      "description": "500MHz, Low-Power Current-Mode \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4112.sub"
+    },
+    {
+      "name": "MAX4113",
+      "category": "Maxim",
+      "description": "500MHz, Low-Power Current-Mode \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4113.sub"
+    },
+    {
+      "name": "MAX4122",
+      "category": "Maxim",
+      "description": "Single 5MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4122.sub"
+    },
+    {
+      "name": "MAX4126",
+      "category": "Maxim",
+      "description": "Dual 5MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4126.sub"
+    },
+    {
+      "name": "MAX4129",
+      "category": "Maxim",
+      "description": "Quad 5MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4129.sub"
+    },
+    {
+      "name": "MAX4124",
+      "category": "Maxim",
+      "description": "Single 25MHz, Stable Av=10V/V \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4124.sub"
+    },
+    {
+      "name": "MAX4128",
+      "category": "Maxim",
+      "description": "Dual 25MHz, Stable Av=10V/V \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4128.sub"
+    },
+    {
+      "name": "MAX4130",
+      "category": "Maxim",
+      "description": "Single 10MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4130.sub"
+    },
+    {
+      "name": "MAX4132",
+      "category": "Maxim",
+      "description": "Dual 10MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4132.sub"
+    },
+    {
+      "name": "MAX4134",
+      "category": "Maxim",
+      "description": "Quad 10MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4134.sub"
+    },
+    {
+      "name": "MAX4144",
+      "category": "Maxim",
+      "description": "130MHz, Av=1, Differential Line Receiver \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "501",
+        "201",
+        "99",
+        "50",
+        "3021",
+        "3999",
+        "3041"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4144.sub"
+    },
+    {
+      "name": "MAX4146",
+      "category": "Maxim",
+      "description": "70MHz, Av=10, Differential Line Receiver \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "501",
+        "201",
+        "99",
+        "50",
+        "3021",
+        "3020",
+        "3041",
+        "301",
+        "1"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4146.sub"
+    },
+    {
+      "name": "MAX4147",
+      "category": "Maxim",
+      "description": "300MHz Differential Line Driver \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "501",
+        "201",
+        "99",
+        "50",
+        "340",
+        "1200",
+        "40",
+        "1000"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4147.sub"
+    },
+    {
+      "name": "MAX4281",
+      "category": "Maxim",
+      "description": "Single OP AMP, Open Loop, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4281.sub"
+    },
+    {
+      "name": "MAX4282",
+      "category": "Maxim",
+      "description": "Dual OP AMP, Open Loop, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4282.sub"
+    },
+    {
+      "name": "MAX4284",
+      "category": "Maxim",
+      "description": "Quad OP AMP, Open Loop, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4284.sub"
+    },
+    {
+      "name": "MAX4310",
+      "category": "Maxim",
+      "description": "Adj-Gain, High-Speed, 2-channel, Video Multiplexer-Amplifier \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4310.sub"
+    },
+    {
+      "name": "MAX4313",
+      "category": "Maxim",
+      "description": "Fixed +2 Gain, High-Speed, 2-channel, Video Multiplexer-Amplifier \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "3",
+        "1000",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4313.sub"
+    },
+    {
+      "name": "MAX4330",
+      "category": "Maxim",
+      "description": "Single 3MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4330.sub"
+    },
+    {
+      "name": "MAX4332",
+      "category": "Maxim",
+      "description": "Dual 3MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4332.sub"
+    },
+    {
+      "name": "MAX4334",
+      "category": "Maxim",
+      "description": "Quad 3MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4334.sub"
+    },
+    {
+      "name": "MAX4450",
+      "category": "Maxim",
+      "description": "Single, 210MHz, Op Amp with Rail-to-Rail Output \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4450.sub"
+    },
+    {
+      "name": "MAX4451",
+      "category": "Maxim",
+      "description": "Dual, 210MHz, Op Amp with Rail-to-Rail Output \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4451.sub"
+    },
+    {
+      "name": "MAX4473",
+      "category": "Maxim",
+      "description": "Low-Cost, Low-Voltage, PA Power Control Amplifier for GSM Applications \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "304",
+        "306",
+        "1",
+        "2",
+        "199",
+        "250",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4473.sub"
+    },
+    {
+      "name": "MAX4493",
+      "category": "Maxim",
+      "description": "Single, Low Power, General Purpose, Rail-to-Rail Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4493.sub"
+    },
+    {
+      "name": "MAX4494",
+      "category": "Maxim",
+      "description": "Dual, Low Power, General Purpose, Rail-to-Rail Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4494.sub"
+    },
+    {
+      "name": "MAX4495",
+      "category": "Maxim",
+      "description": "Quad, Low Power, General Purpose, Rail-to-Rail Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4495.sub"
+    },
+    {
+      "name": "MAX4162",
+      "category": "Maxim",
+      "description": "Single 250kHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4162.sub"
+    },
+    {
+      "name": "MAX4163",
+      "category": "Maxim",
+      "description": "Dual 250kHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4163.sub"
+    },
+    {
+      "name": "MAX4164",
+      "category": "Maxim",
+      "description": "Quad 250kHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4164.sub"
+    },
+    {
+      "name": "MAX4165",
+      "category": "Maxim",
+      "description": "Single 5MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4165.sub"
+    },
+    {
+      "name": "MAX4167",
+      "category": "Maxim",
+      "description": "Dual 5MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4167.sub"
+    },
+    {
+      "name": "MAX4169",
+      "category": "Maxim",
+      "description": "Quad 5MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4169.sub"
+    },
+    {
+      "name": "MAX4178",
+      "category": "Maxim",
+      "description": "330MHz, Gain = +1 Buffer \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "1000",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4178.sub"
+    },
+    {
+      "name": "MAX4182",
+      "category": "Maxim",
+      "description": "Dual 240MHz, Stable Av=+2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4182.sub"
+    },
+    {
+      "name": "MAX4184",
+      "category": "Maxim",
+      "description": "Dual 270MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4184.sub"
+    },
+    {
+      "name": "MAX4186",
+      "category": "Maxim",
+      "description": "Quad 240MHz, Stable Av=+2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4186.sub"
+    },
+    {
+      "name": "MAX4187",
+      "category": "Maxim",
+      "description": "Quad 270MHz, Unity-Gain Stable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4187.sub"
+    },
+    {
+      "name": "MAX4188",
+      "category": "Maxim",
+      "description": "Triple, Low-Glitch, 200MHz, Current-Feedback Amplifier \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4188.sub"
+    },
+    {
+      "name": "MAX4189",
+      "category": "Maxim",
+      "description": "Triple, Low-Glitch, 250MHz, Current-Feedback Amplifier \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4189.sub"
+    },
+    {
+      "name": "MAX4190",
+      "category": "Maxim",
+      "description": "Single, Low-Glitch, 185MHz, Current-Feedback Amplifier \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4190.sub"
+    },
+    {
+      "name": "MAX4200",
+      "category": "Maxim",
+      "description": "Single Buffer, w/o internal termination resistor, BW=660MHz \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4200.sub"
+    },
+    {
+      "name": "MAX4201",
+      "category": "Maxim",
+      "description": "Single Buffer, with 50 ohm termination resistor, BW=780MHz \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4201.sub"
+    },
+    {
+      "name": "MAX4202",
+      "category": "Maxim",
+      "description": "Single Buffer, w/o 75 ohm termination resistor, BW=780MHz \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4202.sub"
+    },
+    {
+      "name": "MAX4203",
+      "category": "Maxim",
+      "description": "Dual Buffer, w/o internal termination resistor, BW=530MHz \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4203.sub"
+    },
+    {
+      "name": "MAX4204",
+      "category": "Maxim",
+      "description": "Dual Buffer, with 50 ohm termination resistor, BW=720MHz \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4204.sub"
+    },
+    {
+      "name": "MAX4205",
+      "category": "Maxim",
+      "description": "Dual Buffer, with 75 ohm termination resistor, BW=720MHz \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4205.sub"
+    },
+    {
+      "name": "MAX4212",
+      "category": "Maxim",
+      "description": "300MHz, Rail-to-Rail Op Amps \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4212.sub"
+    },
+    {
+      "name": "MAX4214",
+      "category": "Maxim",
+      "description": "Single Amp, Without Enable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "201",
+        "198",
+        "51",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4214.sub"
+    },
+    {
+      "name": "MAX4217",
+      "category": "Maxim",
+      "description": "Dual Amp, Without Enable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "201",
+        "198",
+        "51",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4217.sub"
+    },
+    {
+      "name": "MAX4222",
+      "category": "Maxim",
+      "description": "Quad Amp, Without Enable \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "201",
+        "198",
+        "51",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4222.sub"
+    },
+    {
+      "name": "MAX4216",
+      "category": "Maxim",
+      "description": "Dual 200MHz, Rail-to-Rail Op Amps \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4216.sub"
+    },
+    {
+      "name": "MAX4220",
+      "category": "Maxim",
+      "description": "Quad 200MHz, Rail-to-Rail Op Amps \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4220.sub"
+    },
+    {
+      "name": "MAX4223",
+      "category": "Maxim",
+      "description": "Single, 1GHz -3dB BW, Gain=+1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4223.sub"
+    },
+    {
+      "name": "MAX4224",
+      "category": "Maxim",
+      "description": "Single, 600MHz -3dB BW, Gain=+2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4224.sub"
+    },
+    {
+      "name": "MAX4225",
+      "category": "Maxim",
+      "description": "Dual, 1GHz -3dB BW, Gain= +1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4225.sub"
+    },
+    {
+      "name": "MAX4226",
+      "category": "Maxim",
+      "description": "Dual, 1GHz -3dB BW, Gain= +1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4226.sub"
+    },
+    {
+      "name": "MAX4227",
+      "category": "Maxim",
+      "description": "Dual, 600MHz -3dB BW, Gain= +2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4227.sub"
+    },
+    {
+      "name": "MAX4228",
+      "category": "Maxim",
+      "description": "Dual, 600MHz -3dB BW, Gain= +2 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4228.sub"
+    },
+    {
+      "name": "MAX4240",
+      "category": "Maxim",
+      "description": "Single, +1.8V/10uA, SOT23, Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "250",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4240.sub"
+    },
+    {
+      "name": "MAX4242",
+      "category": "Maxim",
+      "description": "Dual, +1.8V/10uA, Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "250",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4242.sub"
+    },
+    {
+      "name": "MAX4244",
+      "category": "Maxim",
+      "description": "Quad, +1.8V/10uA, Op Amp \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "250",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4244.sub"
+    },
+    {
+      "name": "MAX4250",
+      "category": "Maxim",
+      "description": "Single 3MHz, Minimum Stable Gain = 1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4250.sub"
+    },
+    {
+      "name": "MAX4252",
+      "category": "Maxim",
+      "description": "Dual 3MHz, Minimum Stable Gain = 1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4252.sub"
+    },
+    {
+      "name": "MAX4254",
+      "category": "Maxim",
+      "description": "Quad 3MHz, Minimum Stable Gain = 1 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4254.sub"
+    },
+    {
+      "name": "MAX4255",
+      "category": "Maxim",
+      "description": "Single 22MHz, Minimum Stable Gain = 10 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4255.sub"
+    },
+    {
+      "name": "MAX4257",
+      "category": "Maxim",
+      "description": "Dual 22MHz, Minimum Stable Gain = 10 \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "1",
+        "2",
+        "99",
+        "50",
+        "97"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4257.sub"
+    },
+    {
+      "name": "MAX4278",
+      "category": "Maxim",
+      "description": "310MHz, Gain = +2 Buffer \u2014 Maxim SPICE macromodel",
+      "ports": [
+        "201",
+        "1000",
+        "99",
+        "50",
+        "40"
+      ],
+      "params": [],
+      "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX4278.sub"
+    },
+    {
+    "name": "MAX9000",
+    "category": "Maxim",
+    "description": "Op Amp + Comparator + Reference (Op Amp Gain Stability = 1V/V) — Maxim SPICE macromodel",
+    "ports": [
+      "1",
+      "2",
+      "101",
+      "300",
+      "400",
+      "235",
+      "97",
+      "197"
+    ],
+    "params": [],
+    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX9000.sub"
+  },
+  {
+    "name": "MAX9002",
+    "category": "Maxim",
+    "description": "Op Amp + Comparator (Op Amp Gain Stability = 1V/V) — Maxim SPICE macromodel",
+    "ports": [
+      "1",
+      "2",
+      "101",
+      "300",
+      "400",
+      "235",
+      "97",
+      "197"
+    ],
+    "params": [],
+    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX9002.sub"
+  },
+  {
+    "name": "MAX9003",
+    "category": "Maxim",
+    "description": "Op Amp + Comparator + Reference (Op Amp Gain Stability = 10V/V) — Maxim SPICE macromodel",
+    "ports": [
+      "1",
+      "2",
+      "101",
+      "300",
+      "400",
+      "235",
+      "97",
+      "197"
+    ],
+    "params": [],
+    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX9003.sub"
+  },
+  {
+    "name": "MAX9005",
+    "category": "Maxim",
+    "description": "Op Amp + Comparator (Op Amp Gain Stability = 10V/V) — Maxim SPICE macromodel",
+    "ports": [
+      "1",
+      "2",
+      "101",
+      "300",
+      "400",
+      "235",
+      "97",
+      "197"
+    ],
+    "params": [],
+    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX9005.sub"
+  },
+  {
+    "name": "MAX9010",
+    "category": "Maxim",
+    "description": "Single, High-Speed Comparator — Maxim SPICE macromodel",
+    "ports": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "97"
+    ],
+    "params": [],
+    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX9010.sub"
+  },
+  {
+    "name": "MAX9201",
+    "category": "Maxim",
+    "description": "Quad, High-Speed Comparator — Maxim SPICE macromodel",
+    "ports": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "1001",
+      "97"
+    ],
+    "params": [],
+    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX9201.sub"
+  },
+  {
+    "name": "MAX9202",
+    "category": "Maxim",
+    "description": "Dual, High-Speed Comparator — Maxim SPICE macromodel",
+    "ports": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "1001",
+      "97"
+    ],
+    "params": [],
+    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX9202.sub"
+  },
+  {
+    "name": "MAX9203",
+    "category": "Maxim",
+    "description": "Single, High-Speed Comparator — Maxim SPICE macromodel",
+    "ports": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "1001",
+      "97"
+    ],
+    "params": [],
+    "downloadUrl": "https://raw.githubusercontent.com/circuitworkbench/android/main/subckts/maxim/MAX9203.sub"
+  }
   ]
 }
